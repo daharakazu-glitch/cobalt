@@ -289,15 +289,48 @@
     document.getElementById("barFill").style.width = Math.round((m / t) * 100) + "%";
   }
 
+  // ---- ネイティブ英語音声の選定 ----
+  // 高品質な en-US 音声を優先。ページ読込直後は voices が空のことがあるため、
+  // voiceschanged で読み直し、キャッシュする。
+  var bestVoice = null;
+  // 各OS/ブラウザで自然な英語ネイティブ音声の名前候補（優先順）
+  var PREFERRED = [
+    "Google US English", "Samantha", "Aria", "Jenny", "Guy", "Ava", "Allison",
+    "Alex", "Zira", "Karen", "Daniel", "Serena", "Moira", "Tessa", "Microsoft"
+  ];
+
+  function pickVoice() {
+    var vs = (window.speechSynthesis && window.speechSynthesis.getVoices()) || [];
+    if (!vs.length) return null;
+    var enUS = vs.filter(function (v) { return /^en[-_]us/i.test(v.lang); });
+    var enAny = vs.filter(function (v) { return /^en[-_]/i.test(v.lang) || /english/i.test(v.name); });
+    var pool = enUS.length ? enUS : enAny;
+    if (!pool.length) return null;
+    // 名前の優先候補に一致するものを先に選ぶ
+    for (var i = 0; i < PREFERRED.length; i++) {
+      var hit = pool.filter(function (v) { return v.name.indexOf(PREFERRED[i]) !== -1; })[0];
+      if (hit) return hit;
+    }
+    // ローカル（端末内蔵）の自然な音声を優先
+    var local = pool.filter(function (v) { return v.localService; })[0];
+    return local || pool[0];
+  }
+
+  if ("speechSynthesis" in window) {
+    bestVoice = pickVoice();
+    window.speechSynthesis.onvoiceschanged = function () { bestVoice = pickVoice(); };
+  }
+
   function speakEn(text, rate) {
+    if (!("speechSynthesis" in window)) return;
     try {
       window.speechSynthesis.cancel();
       var u = new SpeechSynthesisUtterance(text);
       u.lang = "en-US";
-      u.rate = rate || 1;
-      var vs = window.speechSynthesis.getVoices();
-      var en = vs.filter(function (v) { return /en(-|_)?US/i.test(v.lang) || /English/i.test(v.name); })[0];
-      if (en) u.voice = en;
+      u.rate = rate || 0.95;
+      u.pitch = 1;
+      if (!bestVoice) bestVoice = pickVoice();
+      if (bestVoice) u.voice = bestVoice;
       window.speechSynthesis.speak(u);
     } catch (e) { /* 非対応環境では何もしない */ }
   }
