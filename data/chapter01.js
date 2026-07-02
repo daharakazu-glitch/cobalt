@@ -31,12 +31,12 @@ window.CHAPTER_DATA = [
     tags: ["基本", "超頻出"],
     type: "choice",
     point: "習慣を表す現在形",
-    question: "My sister （　） to the gym every morning before she starts work.",
-    choices: ["is going", "goes", "has gone", "went"],
+    question: "In midwinter, a die-hard Nanko student （　） to school in short sleeves just to prove he never loses to the cold.",
+    choices: ["is walking", "walks", "has walked", "walked"],
     answerIndex: 1,
-    ja: "姉は毎朝、仕事を始める前にジムへ通っている。",
-    en: "My sister goes to the gym every morning before she starts work.",
-    explanation: "every morning のように習慣的・反復的な動作を表すときは現在形。今この瞬間の動作ではないので進行形 is going は不可。"
+    ja: "真冬でも、筋金入りの南高生は「寒さには絶対に負けない」と証明するためだけに半袖で登校する。",
+    en: "In midwinter, a die-hard Nanko student walks to school in short sleeves just to prove he never loses to the cold.",
+    explanation: "習慣的・反復的な事実は現在形で表す。今この瞬間の動作ではないので進行形 is walking は不可。just to ~ は「〜するためだけに」。（※真冬でも半袖、南高名物の謎の気合）"
   },
   {
     id: "002",
@@ -55,12 +55,12 @@ window.CHAPTER_DATA = [
     tags: ["基本", "超頻出"],
     type: "choice",
     point: "時・条件の副詞節は現在形で未来を表す",
-    question: "I'll text you as soon as the meeting （　）.",
-    choices: ["will end", "ends", "will have ended", "ended"],
+    question: "I'll switch into full-focus mode as soon as the exam period （　）.",
+    choices: ["will start", "starts", "will have started", "started"],
     answerIndex: 1,
-    ja: "会議が終わったらすぐにメッセージを送るね。",
-    en: "I'll text you as soon as the meeting ends.",
-    explanation: "as soon as / when / until / if などが導く時・条件の副詞節では、未来のことでも現在形で表す。主節の will と重ねて will end としない点が頻出。"
+    ja: "試験期間が始まったらすぐに、僕は全集中モードに切り替えるよ。",
+    en: "I'll switch into full-focus mode as soon as the exam period starts.",
+    explanation: "as soon as / when / until / if などが導く時・条件の副詞節では、未来のことでも現在形で表す。主節の will と重ねて will start としない点が頻出。（※チャイム一つで受験生モードに入る南高生の「全集中」）"
   },
   {
     id: "004",
@@ -79,24 +79,24 @@ window.CHAPTER_DATA = [
     tags: ["超頻出", "発展"],
     type: "choice",
     point: "現在完了進行形（継続）",
-    question: "We （　） for this band's new album since last autumn.",
-    choices: ["wait", "are waiting", "have been waiting", "waited"],
+    question: "The whole class （　） the school cheer since dawn, and the windows are still shaking.",
+    choices: ["practices", "is practicing", "has been practicing", "practiced"],
     answerIndex: 2,
-    ja: "私たちは去年の秋からずっとこのバンドの新しいアルバムを待っている。",
-    en: "We have been waiting for this band's new album since last autumn.",
-    explanation: "since last autumn（過去のある時点から今まで）と動作の継続を表すので現在完了進行形 have been ~ing。"
+    ja: "クラス全員が夜明けからずっと応援歌を練習していて、窓がいまだに揺れている。",
+    en: "The whole class has been practicing the school cheer since dawn, and the windows are still shaking.",
+    explanation: "since dawn（過去のある時点から今まで）と動作の継続を表すので現在完了進行形 have been ~ing。the whole class は一つのまとまりとして単数扱いなので has。（※声量が県内トップクラスの南高応援）"
   },
   {
     id: "006",
     tags: ["超頻出"],
     type: "choice",
     point: "過去完了（大過去）",
-    question: "When I finally reached the airport, my flight （　） already taken off.",
-    choices: ["has", "had", "was", "would"],
+    question: "By the time the teacher came back, the students （　） already turned the classroom into a festival stage.",
+    choices: ["have", "had", "were", "would"],
     answerIndex: 1,
-    ja: "私がようやく空港に着いたとき、飛行機はすでに離陸してしまっていた。",
-    en: "When I finally reached the airport, my flight had already taken off.",
-    explanation: "過去の一点（着いたとき）より前に完了した動作は過去完了 had + p.p.。過去の基準時より「さらに前」を表す大過去。"
+    ja: "先生が戻ってきたころには、生徒たちはすでに教室を文化祭のステージに変えてしまっていた。",
+    en: "By the time the teacher came back, the students had already turned the classroom into a festival stage.",
+    explanation: "過去の一点（戻ってきたとき）より前に完了した動作は過去完了 had + p.p.。過去の基準時より「さらに前」を表す大過去。（※南高祭が近づくと変身する南高生）"
   },
   {
     id: "007",
@@ -151,23 +151,23 @@ window.CHAPTER_DATA = [
     tags: ["超頻出"],
     type: "ordering",
     point: "現在完了進行形（期間 for）",
-    question: "次の日本語に合うように語句を並べ替えなさい。\n「彼は3年間ずっとその会社で働いている。」",
-    pieces: ["He", "has", "been", "working", "for", "that company", "for", "three years"],
-    answer: "He has been working for that company for three years",
-    ja: "彼は3年間ずっとその会社で働いている。",
-    en: "He has been working for that company for three years.",
-    explanation: "過去から今まで継続している動作は現在完了進行形 have been ~ing。期間は for three years、「〜で働く」は work for。"
+    question: "次の日本語に合うように語句を並べ替えなさい。\n「彼は3時間ずっと全力で校歌を歌い続けている。」",
+    pieces: ["He", "has", "been", "singing", "the school song", "at full volume", "for", "three hours"],
+    answer: "He has been singing the school song at full volume for three hours",
+    ja: "彼は3時間ずっと全力で校歌を歌い続けている。",
+    en: "He has been singing the school song at full volume for three hours.",
+    explanation: "過去から今まで継続している動作は現在完了進行形 have been ~ing。期間は for three hours、at full volume は「全力で・大音量で」。（※喉の強さ県内トップの南高生）"
   },
   {
     id: "012",
     tags: ["基本", "超頻出"],
     type: "fill",
     point: "起点の since",
-    question: "My uncle has run a small bakery （　） 2015.",
+    question: "Our school's cheer squad has trained in this old gym （　） early April.",
     answer: ["since"],
-    ja: "おじは2015年から小さなパン屋を営んでいる。",
-    en: "My uncle has run a small bakery since 2015.",
-    explanation: "現在完了で「〜から（起点）」を表すのは since。2015 のような時の一点には since を、three years のような期間には for を使う。"
+    ja: "うちの応援団はこの古い体育館で4月初めからずっと練習している。",
+    en: "Our school's cheer squad has trained in this old gym since early April.",
+    explanation: "現在完了で「〜から（起点）」を表すのは since。early April のような時の一点には since を、three years のような期間には for を使う。（※伝統の応援練習）"
   },
   {
     id: "013",
