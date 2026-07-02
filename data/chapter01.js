@@ -103,12 +103,12 @@ window.CHAPTER_DATA = [
     tags: ["基本"],
     type: "choice",
     point: "その場で決めた意志は will",
-    question: "A: Someone is knocking at the door. B: OK, I （　） see who it is.",
+    question: "A: A girl just glanced in our direction! B: Really? Then I （　） go and say hi right now.",
     choices: ["am going to", "will", "am", "have"],
     answerIndex: 1,
-    ja: "A: 誰かがドアをノックしているよ。 B: わかった、誰か見てくるね。",
-    en: "A: Someone is knocking at the door. B: OK, I will see who it is.",
-    explanation: "発話の場でとっさに決めた意志は will。be going to は前もって決めていた予定に使うため、この場面には合わない。"
+    ja: "A: 女子がこっちをチラッと見たぞ！ B: マジか？じゃあ今すぐ挨拶しに行ってくる。",
+    en: "A: A girl just glanced in our direction! B: Really? Then I will go and say hi right now.",
+    explanation: "発話の場でとっさに決めた意志は will。be going to は前もって決めていた予定に使うため、この場面には合わない。（※勇んで駆け出したが、彼女が見ていたのは後ろにいた他校生だった…南高男子の悲哀）"
   },
   {
     id: "008",
@@ -139,12 +139,12 @@ window.CHAPTER_DATA = [
     tags: ["超頻出"],
     type: "ordering",
     point: "過去完了＋just（〜したところだった）",
-    question: "次の日本語に合うように語句を並べ替えなさい。\n「私が駅に着いたとき、電車はちょうど出発したところだった。」",
-    pieces: ["The train", "had", "just", "left", "when", "I", "got", "to the station"],
-    answer: "The train had just left when I got to the station",
-    ja: "私が駅に着いたとき、電車はちょうど出発したところだった。",
-    en: "The train had just left when I got to the station.",
-    explanation: "「(過去の一点)より前にちょうど〜したところだった」は過去完了 had + just + p.p.。got（過去）よりも前の出来事を had left で表す。"
+    question: "次の日本語に合うように語句を並べ替えなさい。\n「僕がやっと話しかける勇気を出したとき、彼女はちょうど歩き去ったところだった。」",
+    pieces: ["She", "had", "just", "walked away", "when", "I", "finally", "worked up the courage", "to say hi"],
+    answer: "She had just walked away when I finally worked up the courage to say hi",
+    ja: "僕がやっと話しかける勇気を出したとき、彼女はちょうど歩き去ったところだった。",
+    en: "She had just walked away when I finally worked up the courage to say hi.",
+    explanation: "「(過去の一点)より前にちょうど〜したところだった」は過去完了 had + just + p.p.。worked up the courage（過去）よりも前の出来事を had walked away で表す。work up the courage は「勇気を奮い起こす」。（※勇気を出すのに30分、彼女が去るのに3秒…南高男子の永遠のすれ違い）"
   },
   {
     id: "011",
@@ -207,15 +207,15 @@ window.CHAPTER_DATA = [
     tags: ["発展"],
     type: "rewrite",
     point: "現在完了（経験）への書き換え",
-    question: "次の文とほぼ同じ意味になるように、現在完了を使って書き換えなさい。\nThis is my first time visiting Kyoto.",
+    question: "次の文とほぼ同じ意味になるように、現在完了を使って書き換えなさい。\nThis is my first time getting a reply from a girl.",
     answer: [
-      "I have never visited Kyoto before.",
-      "I have never been to Kyoto before.",
-      "I have never visited Kyoto before",
-      "I have never been to Kyoto before"
+      "I have never gotten a reply from a girl before.",
+      "I have never got a reply from a girl before.",
+      "I have never gotten a reply from a girl before",
+      "I have never got a reply from a girl before"
     ],
-    ja: "私は今まで一度も京都を訪れたことがない。",
-    en: "I have never visited Kyoto before.",
-    explanation: "「初めて訪れる」＝「今まで訪れたことがない」。経験を否定する現在完了 have never + p.p. で表す。visit の代わりに have been to も可。"
+    ja: "僕は今まで一度も女子から返信をもらったことがない。",
+    en: "I have never gotten a reply from a girl before.",
+    explanation: "「初めてもらう」＝「今までもらったことがない」。経験を否定する現在完了 have never + p.p. で表す。get の過去分詞は gotten（英）/ got（英）どちらも可。（※返信が来ただけで大事件になる南高男子）"
   }
 ];
