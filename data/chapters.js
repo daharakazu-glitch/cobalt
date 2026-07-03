@@ -8,8 +8,8 @@
 window.CHAPTERS = [
   { id: "chapter01", no: 1, title: "時制", sub: "Tenses", total: 16, href: "chapter01.html" },
   { id: "chapter02", no: 2, title: "態", sub: "Voice", total: 16, href: "chapter02.html" },
-  { id: "chapter03", no: 3, title: "助動詞", sub: "Modals", total: 0, href: null },
-  { id: "chapter04", no: 4, title: "仮定法", sub: "Subjunctive", total: 0, href: null },
+  { id: "chapter03", no: 3, title: "助動詞", sub: "Modals", total: 16, href: "chapter03.html" },
+  { id: "chapter04", no: 4, title: "仮定法", sub: "Subjunctive", total: 16, href: "chapter04.html" },
   { id: "chapter05", no: 5, title: "不定詞", sub: "Infinitives", total: 0, href: null },
   { id: "chapter06", no: 6, title: "動名詞", sub: "Gerunds", total: 0, href: null },
   { id: "chapter07", no: 7, title: "分詞", sub: "Participles", total: 0, href: null },
