@@ -43,12 +43,12 @@ window.CHAPTER_DATA = [
     tags: ["基本", "超頻出"],
     type: "choice",
     point: "動作主 by … の省略",
-    question: "English （　） in more than fifty countries around the world.",
-    choices: ["speaks", "is spoken", "is speaking", "spoke"],
+    question: "Shohei Ohtani's games （　） live all over Japan, even on weekday mornings.",
+    choices: ["show", "are shown", "are showing", "showed"],
     answerIndex: 1,
-    ja: "英語は世界の50カ国以上で話されている。",
-    en: "English is spoken in more than fifty countries around the world.",
-    explanation: "受動態の動作主が「一般の人々」で不特定・自明なときは by … を省略するのがふつう。is spoken。"
+    ja: "大谷翔平の試合は、平日の朝でさえ日本中で生中継される。",
+    en: "Shohei Ohtani's games are shown live all over Japan, even on weekday mornings.",
+    explanation: "受動態の動作主（放送局など）が不特定・自明なときは by … を省略するのがふつう。「中継される」側なので are shown。"
   },
   {
     id: "003",
@@ -91,12 +91,12 @@ window.CHAPTER_DATA = [
     tags: ["発展", "超頻出"],
     type: "choice",
     point: "使役 make の受動態は to が復活",
-    question: "The first-year students （　） to sing the school song over and over until their voices gave out.",
+    question: "The first-year students （　） to sing \u201CThe Sky Is Cobalt\u201D over and over until their voices gave out.",
     choices: ["were made sing", "were made to sing", "made to sing", "were making sing"],
     answerIndex: 1,
-    ja: "1年生は声がかれるまで、何度も何度も校歌を歌わされた。",
-    en: "The first-year students were made to sing the school song over and over until their voices gave out.",
-    explanation: "使役動詞 make は能動態では〈make O do〉と to を伴わないが、受動態になると to が復活して〈be made to do〉となる。（※伝統の校歌の洗礼）"
+    ja: "1年生は声がかれるまで、何度も何度も応援歌「空はコバルト」を歌わされた。",
+    en: "The first-year students were made to sing \u201CThe Sky Is Cobalt\u201D over and over until their voices gave out.",
+    explanation: "使役動詞 make は能動態では〈make O do〉と to を伴わないが、受動態になると to が復活して〈be made to do〉となる。（※伝統の応援歌「空はコバルト」の洗礼）"
   },
   {
     id: "007",
@@ -151,12 +151,12 @@ window.CHAPTER_DATA = [
     tags: ["超頻出"],
     type: "ordering",
     point: "現在完了の受動態（継続）",
-    question: "次の日本語に合うように語句を並べ替えなさい。\n「この校歌は何世代もの生徒たちによって歌い継がれてきた。」",
-    pieces: ["This school song", "has", "been", "sung", "by", "generations of students"],
-    answer: "This school song has been sung by generations of students",
-    ja: "この校歌は何世代もの生徒たちによって歌い継がれてきた。",
-    en: "This school song has been sung by generations of students.",
-    explanation: "現在完了の受動態は〈have/has been + 過去分詞〉。校歌は「歌われる」側なので has been sung。sing–sang–sung の変化に注意。"
+    question: "次の日本語に合うように語句を並べ替えなさい。\n「この応援歌は何世代もの生徒たちによって歌い継がれてきた。」",
+    pieces: ["This cheer song", "has", "been", "sung", "by", "generations of students"],
+    answer: "This cheer song has been sung by generations of students",
+    ja: "この応援歌は何世代もの生徒たちによって歌い継がれてきた。",
+    en: "This cheer song has been sung by generations of students.",
+    explanation: "現在完了の受動態は〈have/has been + 過去分詞〉。応援歌は「歌われる」側なので has been sung。sing–sang–sung の変化に注意。（※「空はコバルト」は南高の魂）"
   },
   {
     id: "012",

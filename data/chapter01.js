@@ -43,11 +43,11 @@ window.CHAPTER_DATA = [
     tags: ["超頻出", "発展"],
     type: "choice",
     point: "状態動詞は進行形にしない",
-    question: "This old cabinet （　） to my grandmother, so please handle it with care.",
+    question: "This signed ball （　） to my brother, a die-hard Ohtani fan, so don't you dare touch it.",
     choices: ["is belonging", "belongs", "is belonged", "has been belonging"],
     answerIndex: 1,
-    ja: "この古いキャビネットは祖母のものなので、丁寧に扱ってください。",
-    en: "This old cabinet belongs to my grandmother, so please handle it with care.",
+    ja: "このサイン入りボールは大谷翔平の熱狂的ファンである兄のものだから、絶対に触るなよ。",
+    en: "This signed ball belongs to my brother, a die-hard Ohtani fan, so don't you dare touch it.",
     explanation: "belong（所属する）は状態を表す動詞で、原則として進行形にしない。同様に know, own, resemble, contain なども進行形を避ける。"
   },
   {
@@ -151,12 +151,12 @@ window.CHAPTER_DATA = [
     tags: ["超頻出"],
     type: "ordering",
     point: "現在完了進行形（期間 for）",
-    question: "次の日本語に合うように語句を並べ替えなさい。\n「彼は3時間ずっと全力で校歌を歌い続けている。」",
-    pieces: ["He", "has", "been", "singing", "the school song", "at full volume", "for", "three hours"],
-    answer: "He has been singing the school song at full volume for three hours",
-    ja: "彼は3時間ずっと全力で校歌を歌い続けている。",
-    en: "He has been singing the school song at full volume for three hours.",
-    explanation: "過去から今まで継続している動作は現在完了進行形 have been ~ing。期間は for three hours、at full volume は「全力で・大音量で」。（※喉の強さ県内トップの南高生）"
+    question: "次の日本語に合うように語句を並べ替えなさい。\n「彼は3時間ずっと全力で応援歌「空はコバルト」を歌い続けている。」",
+    pieces: ["He", "has", "been", "singing", "\u201CThe Sky Is Cobalt\u201D", "at full volume", "for", "three hours"],
+    answer: "He has been singing \u201CThe Sky Is Cobalt\u201D at full volume for three hours",
+    ja: "彼は3時間ずっと全力で応援歌「空はコバルト」を歌い続けている。",
+    en: "He has been singing \u201CThe Sky Is Cobalt\u201D at full volume for three hours.",
+    explanation: "過去から今まで継続している動作は現在完了進行形 have been ~ing。期間は for three hours、at full volume は「全力で・大音量で」。（※校歌よりも応援歌「空はコバルト」を歌う機会が多い南高生）"
   },
   {
     id: "012",
@@ -174,11 +174,11 @@ window.CHAPTER_DATA = [
     tags: ["基本"],
     type: "fill",
     point: "状態動詞 know は現在形",
-    question: "I finally （　） what you meant by that comment.",
+    question: "Now that I've tried hitting in the batting cage, I finally （　） why people call Ohtani a monster.",
     answer: ["know", "understand"],
-    ja: "君があのコメントで言いたかったことが、ようやくわかった（今わかっている）。",
-    en: "I finally know what you meant by that comment.",
-    explanation: "know は状態を表す動詞なので、今の状態は現在形 know で表し、進行形にはしない。understand も同様に許容される。"
+    ja: "自分でバッティングセンターで打ってみて、なぜみんなが大谷を化け物と呼ぶのか、ようやくわかった。",
+    en: "Now that I've tried hitting in the batting cage, I finally know why people call Ohtani a monster.",
+    explanation: "know は状態を表す動詞なので、今の状態は現在形 know で表し、進行形にはしない。understand も同様に許容される。now that … は「今や〜なので」。"
   },
   {
     id: "014",

@@ -115,12 +115,12 @@ window.CHAPTER_DATA = [
     tags: ["基本"],
     type: "error",
     point: "助動詞の後は動詞の原形",
-    question: "In this school, every first-year ①must ②to learn ③the entire school song ④by heart within a week.",
-    choices: ["①must", "②to learn", "③the entire school song", "④by heart within a week"],
+    question: "In this school, every first-year ①must ②to learn ③the entire cheer song ④by heart within a week.",
+    choices: ["①must", "②to learn", "③the entire cheer song", "④by heart within a week"],
     answerIndex: 1,
-    ja: "この学校では、1年生全員が1週間以内に校歌を全部暗記しなければならない。",
-    en: "In this school, every first-year must learn the entire school song by heart within a week.",
-    explanation: "助動詞 must の後は動詞の原形。to は不要。②は to learn ではなく learn が正しい。（※入学早々の校歌テスト）"
+    ja: "この学校では、1年生全員が1週間以内に応援歌「空はコバルト」を全部暗記しなければならない。",
+    en: "In this school, every first-year must learn the entire cheer song by heart within a week.",
+    explanation: "助動詞 must の後は動詞の原形。to は不要。②は to learn ではなく learn が正しい。（※入学早々、校歌より先に応援歌「空はコバルト」の暗記テスト）"
   },
   {
     id: "009",
