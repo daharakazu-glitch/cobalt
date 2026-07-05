@@ -1,9 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="おにぎりを懸けたじゃんけん">
-  <rect width="96" height="96" rx="18" fill="#e9f1fc"/>
-  <path d="M30 24l16 26h-32z" fill="#fff" stroke="#2b3a55" stroke-width="2.5" stroke-linejoin="round"/>
-  <rect x="24" y="40" width="12" height="10" rx="1.5" fill="#2b3a55"/>
-  <circle cx="62" cy="62" r="7" fill="none" stroke="#0047ab" stroke-width="3"/>
-  <circle cx="82" cy="62" r="7" fill="none" stroke="#0047ab" stroke-width="3"/>
-  <path d="M66 57l14-22M78 57l-14-22" stroke="#0047ab" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="20" cy="70" r="2.5" fill="#f6c445"/><circle cx="34" cy="76" r="2.5" fill="#f6c445"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <linearGradient id="bg14" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff2d8"/><stop offset="1" stop-color="#ffdda6"/>
+    </linearGradient>
+    <linearGradient id="ct14" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b98a5a"/><stop offset="1" stop-color="#96693f"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="18" fill="url(#bg14)"/>
+  <g stroke="#f2a83d" stroke-width="2.4" stroke-linecap="round">
+    <path d="M50 12l3 4M66 8v5M82 12l-3 4M58 24l2 3M74 24l-2 3"/>
+  </g>
+  <g>
+    <circle cx="66" cy="40" r="11" fill="#f2c9a4"/>
+    <path d="M52 36c2-8 9-11 14-11s12 3 14 11c0 0-3.5-2-6-2l1 3c-6-3.5-12-3.5-17-1z" fill="#8f8f96"/>
+    <path d="M52 36c4-2.5 24-2.5 28 0l-2 5c-7-3-17-3-24 0z" fill="#e05555"/>
+    <path d="M62 41.5c1-1.4 2.6-1.4 3.6 0M70.4 41.5c1-1.4 2.6-1.4 3.6 0" stroke="#2b1d12" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M64 46.5a5 5 0 0 0 6.5 0" stroke="#b06e4a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <circle cx="59" cy="44.5" r="1.5" fill="#f0a08a" opacity=".75"/><circle cx="73" cy="44.5" r="1.5" fill="#f0a08a" opacity=".75"/>
+    <path d="M56 52c-3 1.6-5 4.4-5 8v6h30v-6c0-3.6-2-6.4-5-8z" fill="#f4f7fc"/>
+    <path d="M56 52l10 5 10-5" stroke="#d8e0ec" stroke-width="1.6" fill="none"/>
+  </g>
+  <path d="M55 58c-3.5 1.4-7 1.6-10.5.8" stroke="#f4f7fc" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+  <g>
+    <circle cx="42" cy="59" r="5" fill="#f2c9a4"/>
+    <rect x="37.2" y="44.5" width="3.4" height="13" rx="1.7" fill="#f2c9a4" transform="rotate(-13 38.9 51)"/>
+    <rect x="43.6" y="44.5" width="3.4" height="13" rx="1.7" fill="#f2c9a4" transform="rotate(13 45.3 51)"/>
+  </g>
+  <path d="M8 66h80v14a16 16 0 0 1-16 16h-48a16 16 0 0 1-16-16z" fill="url(#ct14)"/>
+  <path d="M8 66h80" stroke="#8a5f36" stroke-width="1.6"/>
+  <g>
+    <path d="M22 44l11 18h-22z" fill="#fff" stroke="#39445c" stroke-width="2.2" stroke-linejoin="round"/>
+    <rect x="17.5" y="54" width="9" height="8" rx="1.2" fill="#39445c"/>
+  </g>
+  <g>
+    <circle cx="66" cy="77" r="6.5" fill="#f2c9a4"/>
+    <path d="M60 73.5c1.6-3.4 10.4-3.4 12 0z" fill="#e8b48e"/>
+    <path d="M60.5 79.5c1.4 1.6 3.4 2.5 5.5 2.5s4.1-.9 5.5-2.5" stroke="#e8b48e" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+  </g>
+  <path d="M30 76c2.2-.6 4.4-.6 6.6 0M30 80.5c2.2-.6 4.4-.6 6.6 0" stroke="#ffd75e" stroke-width="2" stroke-linecap="round"/>
 </svg>

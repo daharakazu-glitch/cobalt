@@ -1,10 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="ワルツを踊る二人">
-  <rect width="96" height="96" rx="18" fill="#e9f1fc"/>
-  <circle cx="38" cy="30" r="8" fill="#2b3a55"/>
-  <path d="M30 40h16l4 34h-24z" fill="#0047ab"/>
-  <circle cx="62" cy="32" r="8" fill="#8a5a44"/>
-  <path d="M54 42h16l8 32h-32z" fill="#ef6f6f"/>
-  <path d="M46 48c4-4 8-4 12 0" stroke="#2b3a55" stroke-width="3" stroke-linecap="round" fill="none"/>
-  <path d="M78 16c2.5 1.5 2.5 5 0 6.5s-2.5 5 0 6.5" stroke="#3b82f6" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-  <circle cx="16" cy="24" r="2.5" fill="#f6c445"/><circle cx="84" cy="52" r="2.5" fill="#f6c445"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <linearGradient id="hall4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a3f76"/><stop offset=".7" stop-color="#1b2a55"/><stop offset="1" stop-color="#15224a"/>
+    </linearGradient>
+    <linearGradient id="flr4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b98a5a"/><stop offset="1" stop-color="#96693f"/>
+    </linearGradient>
+    <radialGradient id="lampGlow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffe9a8" stop-opacity=".95"/><stop offset="1" stop-color="#ffe9a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="96" height="96" rx="18" fill="url(#hall4)"/>
+  <path d="M4 20q22 12 44 0t44 0" stroke="#0e1a3c" stroke-width="1.6" fill="none"/>
+  <g>
+    <circle cx="16" cy="24" r="5" fill="url(#lampGlow)"/><circle cx="16" cy="24" r="1.7" fill="#ffd75e"/>
+    <circle cx="34" cy="28" r="5" fill="url(#lampGlow)"/><circle cx="34" cy="28" r="1.7" fill="#ffd75e"/>
+    <circle cx="52" cy="29" r="5" fill="url(#lampGlow)"/><circle cx="52" cy="29" r="1.7" fill="#ffd75e"/>
+    <circle cx="70" cy="27" r="5" fill="url(#lampGlow)"/><circle cx="70" cy="27" r="1.7" fill="#ffd75e"/>
+    <circle cx="86" cy="22" r="5" fill="url(#lampGlow)"/><circle cx="86" cy="22" r="1.7" fill="#ffd75e"/>
+  </g>
+  <path d="M4 72h88v8a16 16 0 0 1-16 16h-56a16 16 0 0 1-16-16z" fill="url(#flr4)"/>
+  <ellipse cx="48" cy="76" rx="30" ry="4" fill="#7a532f" opacity=".55"/>
+  <g>
+    <path d="M33 47l8 6-2 5-8-5z" fill="#e8edf5"/>
+    <path d="M30 44c-4 1-7 5-7 9l4 2z" fill="#e8edf5"/>
+    <path d="M28 52l10 2 2 20h-13z" fill="#2b3a55"/>
+    <path d="M27 72l-1 4h5l1-4zM35 74h5l-1-4h-4z" fill="#1c2740"/>
+    <path d="M29 42h9v11h-10z" fill="#f4f7fc"/>
+    <circle cx="33" cy="36" r="6.5" fill="#f2c9a4"/>
+    <path d="M26.5 34c1-5 12-5 13 1-2-2-4-2.8-6.5-2.8S28 32.5 26.5 34z" fill="#3d2b1f"/>
+    <circle cx="31.5" cy="36.5" r=".9" fill="#2b1d12"/><circle cx="35.5" cy="36.5" r=".9" fill="#2b1d12"/>
+    <path d="M32.5 39.5c.8.6 1.7.6 2.5 0" stroke="#b06e4a" stroke-width=".8" fill="none" stroke-linecap="round"/>
+    <circle cx="29.8" cy="38.6" r="1.1" fill="#f0a08a" opacity=".7"/>
+  </g>
+  <g>
+    <path d="M63 47l-8 6 2 5 8-5z" fill="#ff9d9d"/>
+    <path d="M66 44c4 1 7 5 7 9l-4 2z" fill="#ff9d9d"/>
+    <path d="M58 52h12l6 22c-8 3-16 3-24 0z" fill="#f26d6d"/>
+    <path d="M59 42h9l1 11h-11z" fill="#ff9d9d"/>
+    <circle cx="63" cy="36" r="6.5" fill="#f2c9a4"/>
+    <path d="M56 35c0-6 13-7 14 0 0 3-1 4-1 4l-1-3.5c-3 1.5-8 1.5-10-1L56 39s-.3-2 0-4z" fill="#5a4632"/>
+    <circle cx="70" cy="31" r="2.6" fill="#5a4632"/>
+    <circle cx="61.5" cy="36.5" r=".9" fill="#2b1d12"/><circle cx="65.5" cy="36.5" r=".9" fill="#2b1d12"/>
+    <path d="M62.5 39.5c.8.6 1.7.6 2.5 0" stroke="#b06e4a" stroke-width=".8" fill="none" stroke-linecap="round"/>
+    <circle cx="59.8" cy="38.4" r="1.1" fill="#f0a08a" opacity=".7"/>
+    <path d="M70 33.5l2 1.2" stroke="#ffd75e" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+  <path d="M41 53l7-3 7 3" stroke="#f2c9a4" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+  <g stroke-linecap="round">
+    <path d="M14 52c2.5 1.5 2.5 5 0 6.5s-2.5 5 0 6.5" stroke="#9db8ff" stroke-width="2" fill="none"/>
+    <path d="M83 48c2 1.2 2 4 0 5.2s-2 4 0 5.2" stroke="#9db8ff" stroke-width="1.8" fill="none"/>
+    <circle cx="12" cy="40" r="1.4" fill="#ffd75e"/><circle cx="87" cy="60" r="1.4" fill="#ffd75e"/>
+  </g>
 </svg>

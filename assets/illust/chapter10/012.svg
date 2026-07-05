@@ -1,13 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="ダンスの基本ステップ">
-  <rect width="96" height="96" rx="18" fill="#e9f1fc"/>
-  <path d="M24 70q14-24 48-38" stroke="#a8c8f0" stroke-width="2.5" stroke-dasharray="2 6" fill="none" stroke-linecap="round"/>
-  <g fill="#0047ab">
-    <ellipse cx="26" cy="74" rx="6" ry="9" transform="rotate(-18 26 74)"/>
-    <ellipse cx="44" cy="60" rx="6" ry="9" transform="rotate(14 44 60)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <linearGradient id="bg12" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a3a72"/><stop offset="1" stop-color="#2c2350"/>
+    </linearGradient>
+    <linearGradient id="fl12" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c99a63"/><stop offset="1" stop-color="#9e7440"/>
+    </linearGradient>
+    <radialGradient id="ch12" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffe9a8" stop-opacity=".95"/><stop offset="1" stop-color="#ffe9a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="96" height="96" rx="18" fill="url(#bg12)"/>
+  <circle cx="48" cy="14" r="13" fill="url(#ch12)"/>
+  <path d="M48 4v6M42 8l2 3M54 8l-2 3" stroke="#e8c46a" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="43" cy="15" r="2" fill="#ffd75e"/><circle cx="48" cy="17" r="2" fill="#ffd75e"/><circle cx="53" cy="15" r="2" fill="#ffd75e"/>
+  <path d="M4 46l44-10 44 10v34a16 16 0 0 1-16 16h-56a16 16 0 0 1-16-16z" fill="url(#fl12)"/>
+  <path d="M4 46l44-10 44 10" stroke="#8a6134" stroke-width="1.6" fill="none"/>
+  <path d="M20 82q14-20 30-26t28-2" stroke="#ffe9a8" stroke-width="2.2" stroke-dasharray="1.5 6" fill="none" stroke-linecap="round"/>
+  <g fill="#f4f7fc">
+    <ellipse cx="24" cy="76" rx="5" ry="8" transform="rotate(-20 24 76)"/>
+    <ellipse cx="37" cy="66" rx="5" ry="8" transform="rotate(12 37 66)"/>
   </g>
-  <g fill="#ef6f6f">
-    <ellipse cx="56" cy="42" rx="6" ry="9" transform="rotate(-14 56 42)"/>
-    <ellipse cx="74" cy="28" rx="6" ry="9" transform="rotate(16 74 28)"/>
+  <g fill="#ff9d9d">
+    <ellipse cx="52" cy="56" rx="5" ry="8" transform="rotate(-14 52 56)"/>
+    <ellipse cx="67" cy="50" rx="5" ry="8" transform="rotate(16 67 50)"/>
   </g>
-  <path d="M16 28c2.5 1.5 2.5 5 0 6.5s-2.5 5 0 6.5" stroke="#3b82f6" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <g fill="#2c2350" opacity=".85">
+    <ellipse cx="24" cy="73.4" rx="3.4" ry="3" transform="rotate(-20 24 74)"/>
+    <ellipse cx="37.6" cy="63.6" rx="3.4" ry="3" transform="rotate(12 37 64)"/>
+    <ellipse cx="52.4" cy="53.4" rx="3.4" ry="3" transform="rotate(-14 52 54)" opacity=".6"/>
+    <ellipse cx="67.6" cy="47.6" rx="3.4" ry="3" transform="rotate(16 67 48)" opacity=".6"/>
+  </g>
+  <path d="M80 62c2.4 1.5 2.4 4.8 0 6.3s-2.4 4.8 0 6.3" stroke="#ffe9a8" stroke-width="2" fill="none" stroke-linecap="round"/>
 </svg>
