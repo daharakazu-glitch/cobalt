@@ -135,12 +135,12 @@ window.CHAPTER_DATA = [
     tags: ["超頻出"],
     type: "error",
     point: "感情を表す分詞（変化に富んだ＝varied）",
-    question: "The menu at our cafeteria is so ①varying and ②cheap that ③even students ④on a tight budget eat well.",
-    choices: ["①varying", "②cheap", "③even students", "④on a tight budget"],
+    question: "The training menus of our clubs are so ①varying and ②tough that ③no one ④ever gets bored.",
+    choices: ["①varying", "②tough", "③no one", "④ever gets bored"],
     answerIndex: 0,
-    ja: "うちの食堂のメニューはとても豊富で安いので、お金に余裕のない生徒でもしっかり食べられる。",
-    en: "The menu at our cafeteria is so varied and cheap that even students on a tight budget eat well.",
-    explanation: "「（種類が）豊富な・変化に富んだ」は過去分詞由来の形容詞 varied。①は varying ではなく varied が正しい。（※メニュー豊富でコスパ抜群の南高食堂）",
+    ja: "うちの部活のトレーニングメニューはとても多彩でハードなので、誰も飽きることがない。",
+    en: "The training menus of our clubs are so varied and tough that no one ever gets bored.",
+    explanation: "「変化に富んだ」という出来上がった状態は過去分詞 varied。varying は「刻々と変わりつつある」で不自然。（※野球部から山岳部・ボクシング部まで15以上——南高は部活の見本市）",
     img: "assets/illust/chapter07/009.svg"
   },
   {
@@ -227,14 +227,14 @@ window.CHAPTER_DATA = [
     tags: ["超頻出"],
     type: "rewrite",
     point: "完了分詞構文（Having + 過去分詞）",
-    question: "次の文を分詞構文を使って書き換えなさい。\nAfter he had eaten three pieces of fried bread, he still lined up for onigiri.",
+    question: "次の文を分詞構文を使って書き換えなさい。\nAfter he had run the whole marathon dressed as a wizard, he slept for twelve hours.",
     answer: [
-      "Having eaten three pieces of fried bread, he still lined up for onigiri.",
-      "Having eaten three pieces of fried bread, he still lined up for onigiri"
+      "Having run the whole marathon dressed as a wizard, he slept for twelve hours.",
+      "Having run the whole marathon dressed as a wizard, he slept for twelve hours"
     ],
-    ja: "揚げパンを3個食べた後も、彼はさらにおにぎりの列に並んだ。",
-    en: "Having eaten three pieces of fried bread, he still lined up for onigiri.",
-    explanation: "主節よりも前に完了した動作を表す分詞構文は〈Having + 過去分詞〉。（※コスパ食堂で無限に食べる南高生）",
+    ja: "魔法使いの仮装でマラソンを完走した後、彼は12時間眠った。",
+    en: "Having run the whole marathon dressed as a wizard, he slept for twelve hours.",
+    explanation: "主節より前に起きたことは完了分詞構文 Having + 過去分詞 で表す。（※恒例のマラソン大会、3年生は思い思いの仮装で走るのが南高流。とんがり帽子は走りにくい）",
     img: "assets/illust/chapter07/016.svg"
   }
 ];

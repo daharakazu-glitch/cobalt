@@ -186,11 +186,11 @@ window.CHAPTER_DATA = [
     tags: ["超頻出"],
     type: "fill",
     point: "最上級相当 No other ... as ~ as",
-    question: "（　） other snack in the cafeteria is as addictive as the fried bread.",
+    question: "（　） other club starts its morning practice as early as the boxing club.",
     answer: ["No"],
-    ja: "食堂のどの軽食も、あの揚げパンほどクセになるものはない。",
-    en: "No other snack in the cafeteria is as addictive as the fried bread.",
-    explanation: "〈No other + 単数名詞 + as/so + 原級 + as A〉で「A ほど〜なものはない」＝A が最上（揚げパンが一番クセになる）を表す。（※やみつき注意・南高食堂）",
+    ja: "ボクシング部ほど朝練の開始が早い部は、ほかにない。",
+    en: "No other club starts its morning practice as early as the boxing club.",
+    explanation: "No other + 単数名詞 + as ~ as A で「Aほど〜なものはない」＝最上級相当。（※夜明け前のロードワークとミット打ちの音が近所の目覚まし代わり）",
     img: "assets/illust/chapter09/013.svg"
   },
   {
@@ -210,14 +210,14 @@ window.CHAPTER_DATA = [
     tags: ["超頻出"],
     type: "rewrite",
     point: "原級（No other ~）→ 最上級への書きかえ",
-    question: "次の文を、最上級を使ってほぼ同じ意味に書きかえなさい。\nNo other snack in the cafeteria is as popular as the fried bread.",
+    question: "次の文を、最上級を使ってほぼ同じ意味に書きかえなさい。\nNo other event at our school is as exciting as the sports festival.",
     answer: [
-      "The fried bread is the most popular snack in the cafeteria.",
-      "The fried bread is the most popular snack in the cafeteria"
+      "The sports festival is the most exciting event at our school.",
+      "The sports festival is the most exciting event at our school"
     ],
-    ja: "揚げパンは食堂で一番人気の軽食だ。",
-    en: "The fried bread is the most popular snack in the cafeteria.",
-    explanation: "「No other ... as ~ as A」＝「A が一番〜」。A（the fried bread）を主語に立て、the most popular で最上級に書きかえる。（※人気No.1・南高食堂）",
+    ja: "体育祭は、うちの学校で一番盛り上がる行事だ。",
+    en: "The sports festival is the most exciting event at our school.",
+    explanation: "No other ~ is as … as A は「Aが一番…だ」。最上級 the most exciting event に書き換える。（※盛り上がりすぎて県教育委員会が注視するレベルの「一番」）",
     img: "assets/illust/chapter09/015.svg"
   },
   {

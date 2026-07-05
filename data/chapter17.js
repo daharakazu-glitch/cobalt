@@ -70,12 +70,12 @@ window.CHAPTER_DATA = [
     tags: ["発展"],
     type: "choice",
     point: "few, if any,「あるとしてもごくわずか」",
-    question: "There are few, （　）, students who dislike the cafeteria's fried bread.",
+    question: "There are few, （　）, students who can stay calm during the final class relay.",
     choices: ["if any", "if ever", "if not", "if only"],
     answerIndex: 0,
-    ja: "食堂の揚げパンが嫌いな生徒は、いるとしてもごくわずかだ。",
-    en: "There are few, if any, students who dislike the cafeteria's fried bread.",
-    explanation: "few, if any,「（数が）あるとしてもごくわずか」/ seldom, if ever,「（頻度が）あるとしてもめったにない」。few には any、seldom には ever と対で覚える省略表現。",
+    ja: "最終種目のクラス対抗リレーの間、冷静でいられる生徒は、いるとしてもごくわずかだ。",
+    en: "There are few, if any, students who can stay calm during the final class relay.",
+    explanation: "few, if any,「（数が）あるとしてもごくわずか」/ seldom, if ever,「（頻度が）めったに〜ない」。few には any、seldom には ever。（※冷静さを失った結果が、毎年の救急車である）",
     img: "assets/illust/chapter17/005.svg"
   },
   {

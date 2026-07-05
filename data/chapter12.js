@@ -122,12 +122,12 @@ window.CHAPTER_DATA = [
     tags: ["発展", "超頻出"],
     type: "error",
     point: "the number of ~ は単数扱い",
-    question: "①The number of ②students who bring rice balls for lunch ③are ④increasing.",
-    choices: ["①The number of", "②students who bring rice balls for lunch", "③are", "④increasing"],
+    question: "①The number of ②students who take notes standing up ③are ④increasing.",
+    choices: ["①The number of", "②students who take notes standing up", "③are", "④increasing"],
     answerIndex: 2,
-    ja: "昼食におにぎりを持参する生徒の数は増えている。",
-    en: "The number of students who bring rice balls for lunch is increasing.",
-    explanation: "the number of ~「〜の数」は number が主語なので単数扱い（is）。a number of ~「たくさんの〜」なら複数扱いになる。この対比が超頻出。（※おばちゃんのおにぎりと競合中）",
+    ja: "立ったままノートを取る生徒の数は増えている。",
+    en: "The number of students who take notes standing up is increasing.",
+    explanation: "the number of ~「〜の数」は number が主語なので単数扱い（is）。a number of ~「たくさんの〜」なら複数扱い。（※授業中に眠くなったら立って参加する——南高で実際に見られる眠気撃退法）",
     img: "assets/illust/chapter12/009.svg"
   },
   {
@@ -185,11 +185,11 @@ window.CHAPTER_DATA = [
     tags: ["超頻出"],
     type: "fill",
     point: "集合名詞 audience",
-    question: "Her first live show drew a large （　） of nearly two hundred people.",
+    question: "The drama club's first play drew a large （　） of nearly two hundred people.",
     answer: ["audience", "crowd"],
-    ja: "彼女の初ライブは、200人近い大観衆を集めた。",
-    en: "Her first live show drew a large audience of nearly two hundred people.",
-    explanation: "「多くの観客」は a large audience（× many audiences）。audience / family / team などの集合名詞は、大小を large / small で表す。draw は「（人を）引き寄せる・集める」。",
+    ja: "映画演劇部の初公演は、200人近い大観衆を集めた。",
+    en: "The drama club's first play drew a large audience of nearly two hundred people.",
+    explanation: "「多くの観客」は a large audience（× many audiences）。audience / family / team などの集合名詞は大小を large / small で表す。（※文化部も熱い南高、映画演劇部の公演は立ち見が出る）",
     img: "assets/illust/chapter12/014.svg"
   },
   {

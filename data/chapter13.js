@@ -44,12 +44,12 @@ window.CHAPTER_DATA = [
     tags: ["超頻出"],
     type: "choice",
     point: "some ~, others ...",
-    question: "Some students spend lunchtime in the gym, and （　） rush to the cafeteria.",
+    question: "Some students sweat with the rugby team, and （　） spend quiet evenings with the literature club.",
     choices: ["other", "the other", "others", "another"],
     answerIndex: 2,
-    ja: "昼休みを体育館で過ごす生徒もいれば、食堂へ駆け込む生徒もいる。",
-    en: "Some students spend lunchtime in the gym, and others rush to the cafeteria.",
-    explanation: "「〜する人もいれば、…する人もいる」は some ~, others ...。残り全員と特定するなら the others になる。単独の other は代名詞として使えない。",
+    ja: "ラグビー部で汗を流す生徒もいれば、文芸部で静かな夕方を過ごす生徒もいる。",
+    en: "Some students sweat with the rugby team, and others spend quiet evenings with the literature club.",
+    explanation: "「〜する人もいれば、…する人もいる」は some ~, others ...。残り全員と特定するなら the others。（※運動部15に文化部7。放課後の南高はどこも満員御礼）",
     img: "assets/illust/chapter13/003.svg"
   },
   {
