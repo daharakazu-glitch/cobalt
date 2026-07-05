@@ -36,7 +36,8 @@ window.CHAPTER_DATA = [
     answerIndex: 1,
     ja: "クラスのお調子者の漫才があまりに面白くて、体育館全体が喝采で沸いた。",
     en: "The stand-up act by the class clown was so exciting that the whole gym roared with applause.",
-    explanation: "「人をワクワクさせる」ような、感情を引き起こす側の物事には現在分詞 exciting。人が「ワクワクさせられる」なら excited。（※南高名物、指名された生徒の一芸披露）"
+    explanation: "「人をワクワクさせる」ような、感情を引き起こす側の物事には現在分詞 exciting。人が「ワクワクさせられる」なら excited。（※南高名物、指名された生徒の一芸披露）",
+    img: "assets/illust/chapter07/001.svg"
   },
   {
     id: "002",
@@ -48,7 +49,8 @@ window.CHAPTER_DATA = [
     answerIndex: 1,
     ja: "彼の盛り上がらないスピーチの間、みんな完全に退屈しきった様子で、まもなくブーイングが始まった。",
     en: "Everyone looked completely bored during his flat speech, and soon the booing started.",
-    explanation: "人が「退屈させられる」側なら過去分詞 bored。物事が「退屈させる」側なら boring。（※つまらなければ容赦なくブーイングを浴びる南高の風習）"
+    explanation: "人が「退屈させられる」側なら過去分詞 bored。物事が「退屈させる」側なら boring。（※つまらなければ容赦なくブーイングを浴びる南高の風習）",
+    img: "assets/illust/chapter07/002.svg"
   },
   {
     id: "003",
@@ -60,7 +62,8 @@ window.CHAPTER_DATA = [
     answerIndex: 1,
     ja: "ステージで手品を披露していた生徒が、突然カードを一枚残らず落とした。",
     en: "The student performing a magic trick on stage suddenly dropped every single card.",
-    explanation: "名詞を後ろから修飾し「〜している…」と能動・進行の意味を表すのは現在分詞。the student performing …（手品を披露している生徒）。（※スベると笑いに変わる一芸披露）"
+    explanation: "名詞を後ろから修飾し「〜している…」と能動・進行の意味を表すのは現在分詞。the student performing …（手品を披露している生徒）。（※スベると笑いに変わる一芸披露）",
+    img: "assets/illust/chapter07/003.svg"
   },
   {
     id: "004",
@@ -72,7 +75,8 @@ window.CHAPTER_DATA = [
     answerIndex: 1,
     ja: "食堂のおばちゃんたちに売られる揚げパンは、毎日数分で売り切れる。",
     en: "The fried bread sold by the cafeteria ladies sells out within minutes every single day.",
-    explanation: "名詞を後ろから修飾し「〜される…」と受動の意味を表すのは過去分詞。the fried bread sold by …（〜に売られる揚げパン）。（※コスパ最強、教室まで売りに来る名物の揚げパン）"
+    explanation: "名詞を後ろから修飾し「〜される…」と受動の意味を表すのは過去分詞。the fried bread sold by …（〜に売られる揚げパン）。（※コスパ最強、教室まで売りに来る名物の揚げパン）",
+    img: "assets/illust/chapter07/004.svg"
   },
   {
     id: "005",
@@ -84,7 +88,8 @@ window.CHAPTER_DATA = [
     answerIndex: 2,
     ja: "彼は南校祭の人混みで財布を盗まれ、その日は一日中軽食一つ買えなかった。",
     en: "He had his wallet stolen in the festival crowd, so he couldn't buy a single snack all day.",
-    explanation: "〈have + O + 過去分詞〉は「Oを〜される（被害）」も表す。wallet は「盗まれる」側なので stolen。"
+    explanation: "〈have + O + 過去分詞〉は「Oを〜される（被害）」も表す。wallet は「盗まれる」側なので stolen。",
+    img: "assets/illust/chapter07/005.svg"
   },
   {
     id: "006",
@@ -96,7 +101,8 @@ window.CHAPTER_DATA = [
     answerIndex: 0,
     ja: "彼のジョークが完全にスベった後、僕たちは彼が笑っている先輩二人にステージから引きずり降ろされるのを見た。",
     en: "After his joke completely bombed, we saw him dragged off the stage by two laughing seniors.",
-    explanation: "〈知覚動詞 + O + 過去分詞〉で「Oが〜されるのを見る/聞く」。him は「引きずられる」側なので dragged。（※ウケなければステージ強制退場も一芸披露の掟）"
+    explanation: "〈知覚動詞 + O + 過去分詞〉で「Oが〜されるのを見る/聞く」。him は「引きずられる」側なので dragged。（※ウケなければステージ強制退場も一芸披露の掟）",
+    img: "assets/illust/chapter07/006.svg"
   },
   {
     id: "007",
@@ -108,7 +114,8 @@ window.CHAPTER_DATA = [
     answerIndex: 1,
     ja: "壮行式で、彼女は涙を頬に流しながら、その歌を最後まで歌いきった。",
     en: "At the send-off ceremony, she sang the whole song with tears running down her cheeks.",
-    explanation: "〈with + O + 現在分詞〉で「Oが〜した状態で」という付帯状況を表す。tears が「流れている」ので running。"
+    explanation: "〈with + O + 現在分詞〉で「Oが〜した状態で」という付帯状況を表す。tears が「流れている」ので running。",
+    img: "assets/illust/chapter07/007.svg"
   },
   {
     id: "008",
@@ -120,7 +127,8 @@ window.CHAPTER_DATA = [
     answerIndex: 3,
     ja: "名前を呼ばれ、何を言えばいいか分からず、彼はただそこに立ちすくんでいた。",
     en: "When his name was called, not knowing what to say, he just stood there frozen.",
-    explanation: "「凍りついた（すくんだ）状態で立っていた」は主語 he が「凍りつかされた」側なので過去分詞 frozen。④は froze ではなく frozen が正しい。文頭の not knowing は分詞構文の否定。（※指名されて頭が真っ白になる一芸披露）"
+    explanation: "「凍りついた（すくんだ）状態で立っていた」は主語 he が「凍りつかされた」側なので過去分詞 frozen。④は froze ではなく frozen が正しい。文頭の not knowing は分詞構文の否定。（※指名されて頭が真っ白になる一芸披露）",
+    img: "assets/illust/chapter07/008.svg"
   },
   {
     id: "009",
@@ -132,7 +140,8 @@ window.CHAPTER_DATA = [
     answerIndex: 0,
     ja: "うちの食堂のメニューはとても豊富で安いので、お金に余裕のない生徒でもしっかり食べられる。",
     en: "The menu at our cafeteria is so varied and cheap that even students on a tight budget eat well.",
-    explanation: "「（種類が）豊富な・変化に富んだ」は過去分詞由来の形容詞 varied。①は varying ではなく varied が正しい。（※メニュー豊富でコスパ抜群の南高食堂）"
+    explanation: "「（種類が）豊富な・変化に富んだ」は過去分詞由来の形容詞 varied。①は varying ではなく varied が正しい。（※メニュー豊富でコスパ抜群の南高食堂）",
+    img: "assets/illust/chapter07/009.svg"
   },
   {
     id: "010",
@@ -144,7 +153,8 @@ window.CHAPTER_DATA = [
     answer: "Not knowing what to perform he ended up doing a lame magic trick",
     ja: "何を披露すればいいか分からず、彼は結局しょぼい手品をやった。",
     en: "Not knowing what to perform, he ended up doing a lame magic trick.",
-    explanation: "分詞構文の否定は not を分詞の前に置く。Not knowing …（〜が分からないので）。end up ~ing は「結局〜することになる」。（※一芸を求められるも準備不足の悲劇）"
+    explanation: "分詞構文の否定は not を分詞の前に置く。Not knowing …（〜が分からないので）。end up ~ing は「結局〜することになる」。（※一芸を求められるも準備不足の悲劇）",
+    img: "assets/illust/chapter07/010.svg"
   },
   {
     id: "011",
@@ -156,7 +166,8 @@ window.CHAPTER_DATA = [
     answer: "We spent the break with the ladies selling fried bread around the classroom",
     ja: "おばちゃんたちが揚げパンを売り歩く中、僕たちは休み時間を過ごした。",
     en: "We spent the break with the ladies selling fried bread around the classroom.",
-    explanation: "〈with + O + 現在分詞〉で「Oが〜している中で／〜しながら」という付帯状況を表す。the ladies が「売り歩いている」ので selling。（※教室まで来てくれる名物のおばちゃん）"
+    explanation: "〈with + O + 現在分詞〉で「Oが〜している中で／〜しながら」という付帯状況を表す。the ladies が「売り歩いている」ので selling。（※教室まで来てくれる名物のおばちゃん）",
+    img: "assets/illust/chapter07/011.svg"
   },
   {
     id: "012",
@@ -167,7 +178,8 @@ window.CHAPTER_DATA = [
     answer: ["amazed", "astonished", "stunned"],
     ja: "内気な1年生が突然プロ並みにビートボックスを始めたとき、観客全員が驚嘆した。",
     en: "The whole audience was amazed when the shy first-year suddenly started beatboxing like a pro.",
-    explanation: "人が「驚かされる」側なので過去分詞 amazed。amazing（驚かせるような）と区別する。（※意外な特技で喝采をさらう一芸披露）"
+    explanation: "人が「驚かされる」側なので過去分詞 amazed。amazing（驚かせるような）と区別する。（※意外な特技で喝采をさらう一芸披露）",
+    img: "assets/illust/chapter07/012.svg"
   },
   {
     id: "013",
@@ -178,7 +190,8 @@ window.CHAPTER_DATA = [
     answer: ["Judging"],
     ja: "拍手の大歓声から判断すると、彼のあの有名芸人のモノマネは大成功だった。",
     en: "Judging from the roar of applause, his impression of that famous comedian was a huge hit.",
-    explanation: "judging from … は「〜から判断すると」という慣用的な独立分詞構文。主語に関係なく決まった形で使う。（※モノマネで喝采を浴びる一芸披露）"
+    explanation: "judging from … は「〜から判断すると」という慣用的な独立分詞構文。主語に関係なく決まった形で使う。（※モノマネで喝采を浴びる一芸披露）",
+    img: "assets/illust/chapter07/013.svg"
   },
   {
     id: "014",
@@ -189,7 +202,8 @@ window.CHAPTER_DATA = [
     answer: ["cut", "done", "styled"],
     ja: "南校祭の直前に、やっと大好きなミュージシャンそっくりに髪を切ってもらった。",
     en: "Right before the festival, I finally got my hair cut just like my favorite musician's.",
-    explanation: "〈get + O + 過去分詞〉で「Oを〜してもらう」。hair は「切ってもらう」側なので過去分詞 cut（cut–cut–cut）。"
+    explanation: "〈get + O + 過去分詞〉で「Oを〜してもらう」。hair は「切ってもらう」側なので過去分詞 cut（cut–cut–cut）。",
+    img: "assets/illust/chapter07/014.svg"
   },
   {
     id: "015",
@@ -205,7 +219,8 @@ window.CHAPTER_DATA = [
     ],
     ja: "一芸を披露するよう指名されたので、彼は一週間ずっとネタを練習した。",
     en: "Chosen to perform, he practiced his comedy act all week.",
-    explanation: "受動の分詞構文は〈Being + 過去分詞〉だが、Being はふつう省略され、過去分詞で文を始める。Chosen to perform, …（指名されたので）。（※壮行式などで指名される一芸披露）"
+    explanation: "受動の分詞構文は〈Being + 過去分詞〉だが、Being はふつう省略され、過去分詞で文を始める。Chosen to perform, …（指名されたので）。（※壮行式などで指名される一芸披露）",
+    img: "assets/illust/chapter07/015.svg"
   },
   {
     id: "016",
@@ -219,6 +234,7 @@ window.CHAPTER_DATA = [
     ],
     ja: "揚げパンを3個食べた後も、彼はさらにおにぎりの列に並んだ。",
     en: "Having eaten three pieces of fried bread, he still lined up for onigiri.",
-    explanation: "主節よりも前に完了した動作を表す分詞構文は〈Having + 過去分詞〉。（※コスパ食堂で無限に食べる南高生）"
+    explanation: "主節よりも前に完了した動作を表す分詞構文は〈Having + 過去分詞〉。（※コスパ食堂で無限に食べる南高生）",
+    img: "assets/illust/chapter07/016.svg"
   }
 ];

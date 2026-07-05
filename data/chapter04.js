@@ -36,7 +36,8 @@ window.CHAPTER_DATA = [
     answerIndex: 1,
     ja: "もう少し勇気があれば、今すぐ彼女を文化祭に誘うのに。",
     en: "If I were a little braver, I would ask her to the school festival right now.",
-    explanation: "現在の事実に反する仮定は仮定法過去〈If + S + 過去形, S + would + 原形〉。be動詞は主語に関係なく were を使うのが原則。（※勇気さえあれば…の南高男子）"
+    explanation: "現在の事実に反する仮定は仮定法過去〈If + S + 過去形, S + would + 原形〉。be動詞は主語に関係なく were を使うのが原則。（※勇気さえあれば…の南高男子）",
+    img: "assets/illust/chapter04/001.svg"
   },
   {
     id: "002",
@@ -48,7 +49,8 @@ window.CHAPTER_DATA = [
     answerIndex: 1,
     ja: "あの夏もっと猛練習していたら、県大会で優勝できていたかもしれない。",
     en: "If we had trained harder that summer, we might have won the prefectural tournament.",
-    explanation: "過去の事実に反する仮定は仮定法過去完了〈If + S + had + 過去分詞, S + would/might have + 過去分詞〉。"
+    explanation: "過去の事実に反する仮定は仮定法過去完了〈If + S + had + 過去分詞, S + would/might have + 過去分詞〉。",
+    img: "assets/illust/chapter04/002.svg"
   },
   {
     id: "003",
@@ -60,7 +62,8 @@ window.CHAPTER_DATA = [
     answerIndex: 1,
     ja: "応援団長の半分でいいから大きな声で歌えたらなあ。",
     en: "I wish I could sing even half as loud as the cheer squad captain.",
-    explanation: "現在かなわない願望は〈I wish + S + 過去形（助動詞なら could / would）〉。can ではなく could。"
+    explanation: "現在かなわない願望は〈I wish + S + 過去形（助動詞なら could / would）〉。can ではなく could。",
+    img: "assets/illust/chapter04/003.svg"
   },
   {
     id: "004",
@@ -72,7 +75,8 @@ window.CHAPTER_DATA = [
     answerIndex: 1,
     ja: "彼はまるで実際に招待されたかのように、女子校の文化祭のことを話す。",
     en: "He talks about the girls' school festival as if he had actually been invited.",
-    explanation: "「まるで（実際は違うが）〜だったかのように」は as if + 仮定法過去完了 had + 過去分詞。主節 talks より前の事実に反する内容なので had been。（※妄想が止まらない南高男子）"
+    explanation: "「まるで（実際は違うが）〜だったかのように」は as if + 仮定法過去完了 had + 過去分詞。主節 talks より前の事実に反する内容なので had been。（※妄想が止まらない南高男子）",
+    img: "assets/illust/chapter04/004.svg"
   },
   {
     id: "005",
@@ -84,7 +88,8 @@ window.CHAPTER_DATA = [
     answerIndex: 0,
     ja: "もし僕が君の立場なら、手遅れになる前に彼女に謝るよ。",
     en: "Were I in your shoes, I would apologize to her before it's too late.",
-    explanation: "仮定法で if を省略すると主語と（助）動詞が倒置される。If I were → Were I。be in one's shoes は「〜の立場にある」。"
+    explanation: "仮定法で if を省略すると主語と（助）動詞が倒置される。If I were → Were I。be in one's shoes は「〜の立場にある」。",
+    img: "assets/illust/chapter04/005.svg"
   },
   {
     id: "006",
@@ -96,7 +101,8 @@ window.CHAPTER_DATA = [
     answerIndex: 1,
     ja: "女子のことを夢想してばかりいないで、そろそろ真剣に勉強を始めてもいいころだ。",
     en: "It's high time you started studying seriously instead of daydreaming about girls.",
-    explanation: "〈It is (high) time + S + 過去形〉で「もう〜してよいころだ（まだしていない）」。動詞は仮定法過去。（※現実を見よ南高男子）"
+    explanation: "〈It is (high) time + S + 過去形〉で「もう〜してよいころだ（まだしていない）」。動詞は仮定法過去。（※現実を見よ南高男子）",
+    img: "assets/illust/chapter04/006.svg"
   },
   {
     id: "007",
@@ -108,7 +114,8 @@ window.CHAPTER_DATA = [
     answerIndex: 0,
     ja: "絶え間ない応援がなければ、うちのチームはとっくに諦めていただろう。",
     en: "Without the constant cheering, our team would have given up long ago.",
-    explanation: "Without … / But for … は「〜がなければ／〜がなかったら」で仮定法を導く。ここは過去の帰結なので would have given up。"
+    explanation: "Without … / But for … は「〜がなければ／〜がなかったら」で仮定法を導く。ここは過去の帰結なので would have given up。",
+    img: "assets/illust/chapter04/007.svg"
   },
   {
     id: "008",
@@ -120,7 +127,8 @@ window.CHAPTER_DATA = [
     answerIndex: 3,
     ja: "もし彼女が僕のメッセージに気づいていたら、すぐに返信してくれただろうに。でも一度もなかった。",
     en: "If she had noticed my message, she would have replied immediately, but she never did.",
-    explanation: "if節が過去完了（had noticed）なので、帰結節も〈would have + 過去分詞〉。④は reply ではなく have replied が正しい。（※既読すらつかない南高男子）"
+    explanation: "if節が過去完了（had noticed）なので、帰結節も〈would have + 過去分詞〉。④は reply ではなく have replied が正しい。（※既読すらつかない南高男子）",
+    img: "assets/illust/chapter04/008.svg"
   },
   {
     id: "009",
@@ -132,7 +140,8 @@ window.CHAPTER_DATA = [
     answerIndex: 0,
     ja: "振り返ると、チャンスがあったときに留学しておけばよかったと思う。",
     en: "Looking back, I wish I had studied abroad when I had the chance.",
-    explanation: "過去に対する「〜しておけばよかった」という願望は〈I wish + S + had + 過去分詞〉。①は studied ではなく had studied が正しい。"
+    explanation: "過去に対する「〜しておけばよかった」という願望は〈I wish + S + had + 過去分詞〉。①は studied ではなく had studied が正しい。",
+    img: "assets/illust/chapter04/009.svg"
   },
   {
     id: "010",
@@ -144,7 +153,8 @@ window.CHAPTER_DATA = [
     answer: "If it were not for his volume our cheering would not work",
     ja: "もし彼の声量がなければ、うちの応援は成立しないだろう。",
     en: "If it were not for his volume, our cheering would not work.",
-    explanation: "If it were not for … は「（今）〜がなければ」という現在の仮定。帰結は would + 原形。（※応援の生命線）"
+    explanation: "If it were not for … は「（今）〜がなければ」という現在の仮定。帰結は would + 原形。（※応援の生命線）",
+    img: "assets/illust/chapter04/010.svg"
   },
   {
     id: "011",
@@ -156,7 +166,8 @@ window.CHAPTER_DATA = [
     answer: "I wish I had talked to her back then",
     ja: "あのとき彼女に話しかけていればよかったのに。",
     en: "I wish I had talked to her back then.",
-    explanation: "過去にしなかったことへの後悔の願望は〈I wish + S + had + 過去分詞〉。（※あの日の一歩を悔やむ南高男子）"
+    explanation: "過去にしなかったことへの後悔の願望は〈I wish + S + had + 過去分詞〉。（※あの日の一歩を悔やむ南高男子）",
+    img: "assets/illust/chapter04/011.svg"
   },
   {
     id: "012",
@@ -167,7 +178,8 @@ window.CHAPTER_DATA = [
     answer: ["Had"],
     ja: "今日がテストだと知っていたら、徹夜で勉強したのに。",
     en: "Had I known the test was today, I would have studied all night.",
-    explanation: "If I had known → if を省略して倒置すると Had I known。仮定法過去完了の倒置。空所には Had。"
+    explanation: "If I had known → if を省略して倒置すると Had I known。仮定法過去完了の倒置。空所には Had。",
+    img: "assets/illust/chapter04/012.svg"
   },
   {
     id: "013",
@@ -178,7 +190,8 @@ window.CHAPTER_DATA = [
     answer: ["though", "if"],
     ja: "彼女があまりに優しく微笑んでくれたので、僕はまるで宙に浮いているような気分だった。",
     en: "She smiled at me so kindly that I felt as though I were floating on air.",
-    explanation: "as though（＝as if）+ 仮定法過去で「まるで〜であるかのように」。were を使う点にも注意。（※微笑み一つで浮足立つ南高男子）"
+    explanation: "as though（＝as if）+ 仮定法過去で「まるで〜であるかのように」。were を使う点にも注意。（※微笑み一つで浮足立つ南高男子）",
+    img: "assets/illust/chapter04/013.svg"
   },
   {
     id: "014",
@@ -189,7 +202,8 @@ window.CHAPTER_DATA = [
     answer: ["were"],
     ja: "もし文化祭が中止になるようなことがあれば、3年生全員が打ちのめされるだろう。",
     en: "If the school festival were to be canceled, the whole third year would be devastated.",
-    explanation: "〈If + S + were to + 原形〉は実現性の低い未来の仮定を表す。帰結は would + 原形。"
+    explanation: "〈If + S + were to + 原形〉は実現性の低い未来の仮定を表す。帰結は would + 原形。",
+    img: "assets/illust/chapter04/014.svg"
   },
   {
     id: "015",
@@ -205,7 +219,8 @@ window.CHAPTER_DATA = [
     ],
     ja: "君の支えがなければ、僕は続けていけないだろう。",
     en: "If it were not for your support, I couldn't keep going.",
-    explanation: "Without … ＝ If it were not for …（現在の仮定）。過去のことなら If it had not been for … になる。"
+    explanation: "Without … ＝ If it were not for …（現在の仮定）。過去のことなら If it had not been for … になる。",
+    img: "assets/illust/chapter04/015.svg"
   },
   {
     id: "016",
@@ -219,6 +234,7 @@ window.CHAPTER_DATA = [
     ],
     ja: "彼女の連絡先を知っていればなあ。",
     en: "I wish I had her contact information.",
-    explanation: "現在の事実（連絡先を持っていない）を残念に思う気持ちは〈I wish + S + 過去形〉で表す。have → had。（※連絡先すら遠い南高男子）"
+    explanation: "現在の事実（連絡先を持っていない）を残念に思う気持ちは〈I wish + S + 過去形〉で表す。have → had。（※連絡先すら遠い南高男子）",
+    img: "assets/illust/chapter04/016.svg"
   }
 ];

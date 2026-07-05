@@ -36,7 +36,8 @@ window.CHAPTER_DATA = [
     answerIndex: 1,
     ja: "南校祭のダンスで、彼は緊張しすぎて山形西の女子に一言も話しかけられなかった。",
     en: "At the festival dance, he was too nervous to say a single word to the girl from Yamagata Nishi.",
-    explanation: "〈too + 形容詞 + to do〉で「あまりに〜なので…できない」。（※他校の女子と社交ダンスを踊る南校祭、緊張で固まる南高男子）"
+    explanation: "〈too + 形容詞 + to do〉で「あまりに〜なので…できない」。（※他校の女子と社交ダンスを踊る南校祭、緊張で固まる南高男子）",
+    img: "assets/illust/chapter05/001.svg"
   },
   {
     id: "002",
@@ -48,7 +49,8 @@ window.CHAPTER_DATA = [
     answerIndex: 0,
     ja: "うちの学校には制服がないので、自分できちんとした服装をするだけの自律心が必要だ。",
     en: "Our school has no uniform, so you have to be disciplined enough to dress properly on your own.",
-    explanation: "〈形容詞/副詞 + enough + to do〉で「…できるほど〜だ」。enough は形容詞の後ろに置く点に注意。（※制服がなく「我らの心得」で自らを律する南高生）"
+    explanation: "〈形容詞/副詞 + enough + to do〉で「…できるほど〜だ」。enough は形容詞の後ろに置く点に注意。（※制服がなく「我らの心得」で自らを律する南高生）",
+    img: "assets/illust/chapter05/002.svg"
   },
   {
     id: "003",
@@ -60,7 +62,8 @@ window.CHAPTER_DATA = [
     answerIndex: 2,
     ja: "1年生が応援歌「空はコバルト」の歌詞を全部覚えるのに、まる1か月かかった。",
     en: "It took the first-years a whole month to learn all the words of the cheer song \u201CThe Sky Is Cobalt.\u201D",
-    explanation: "〈It takes + (人) + 時間 + to do〉で「（人が）…するのに（時間）がかかる」。（※校歌より歌う機会の多い応援歌「空はコバルト」）"
+    explanation: "〈It takes + (人) + 時間 + to do〉で「（人が）…するのに（時間）がかかる」。（※校歌より歌う機会の多い応援歌「空はコバルト」）",
+    img: "assets/illust/chapter05/003.svg"
   },
   {
     id: "004",
@@ -72,7 +75,8 @@ window.CHAPTER_DATA = [
     answerIndex: 0,
     ja: "彼は南校祭のダンスでパートナーの足を踏まないように、毎晩ワルツを練習した。",
     en: "He practiced the waltz every night so as not to step on his partner's feet at the festival dance.",
-    explanation: "so as to do / in order to do は「〜するために」。否定は so as not to do（notの位置に注意）。（※社交ダンスに本気の南高男子）"
+    explanation: "so as to do / in order to do は「〜するために」。否定は so as not to do（notの位置に注意）。（※社交ダンスに本気の南高男子）",
+    img: "assets/illust/chapter05/004.svg"
   },
   {
     id: "005",
@@ -84,7 +88,8 @@ window.CHAPTER_DATA = [
     answerIndex: 0,
     ja: "正式なダンスでのふるまい方を誰も教えてくれなかったので、僕たちは自分たちで作法を決めた。",
     en: "Nobody taught us how to behave at a formal dance, so we made up our own rules.",
-    explanation: "〈疑問詞 + to do〉は名詞句として目的語などになる。how to behave は「どうふるまうべきか」。（※作法まで自分たちで決める「我らの心得」）"
+    explanation: "〈疑問詞 + to do〉は名詞句として目的語などになる。how to behave は「どうふるまうべきか」。（※作法まで自分たちで決める「我らの心得」）",
+    img: "assets/illust/chapter05/005.svg"
   },
   {
     id: "006",
@@ -96,7 +101,8 @@ window.CHAPTER_DATA = [
     answerIndex: 1,
     ja: "先輩たちは、最初の試合までに新入生全員が応援歌を暗記することを望んでいる。",
     en: "The senior members want every freshman to learn the cheer song by heart before the first game.",
-    explanation: "〈want + O + to do〉で「Oに〜してほしい」。want は that節ではなく〈O + to do〉をとる。"
+    explanation: "〈want + O + to do〉で「Oに〜してほしい」。want は that節ではなく〈O + to do〉をとる。",
+    img: "assets/illust/chapter05/006.svg"
   },
   {
     id: "007",
@@ -108,7 +114,8 @@ window.CHAPTER_DATA = [
     answerIndex: 0,
     ja: "伝統によれば、他校の女子生徒たちは夕方のダンスが始まるちょうどそのときに到着することになっている。",
     en: "According to tradition, the girls from other schools are to arrive just as the evening dance begins.",
-    explanation: "〈be + to不定詞〉は「予定・義務・可能・運命・意図」を表す。ここは「〜することになっている」という予定。（※南校祭名物の社交ダンス）"
+    explanation: "〈be + to不定詞〉は「予定・義務・可能・運命・意図」を表す。ここは「〜することになっている」という予定。（※南校祭名物の社交ダンス）",
+    img: "assets/illust/chapter05/007.svg"
   },
   {
     id: "008",
@@ -120,7 +127,8 @@ window.CHAPTER_DATA = [
     answerIndex: 0,
     ja: "山形西の生徒にダンスを申し込むとは、彼はとても勇敢だった。",
     en: "It was very brave of him to ask a Yamagata Nishi student to dance with him.",
-    explanation: "人の性質を表す形容詞（brave, kind, foolish など）では、不定詞の意味上の主語を〈of + 人〉で表す。①は for him ではなく of him が正しい。（※勇気だけは一流の南高男子）"
+    explanation: "人の性質を表す形容詞（brave, kind, foolish など）では、不定詞の意味上の主語を〈of + 人〉で表す。①は for him ではなく of him が正しい。（※勇気だけは一流の南高男子）",
+    img: "assets/illust/chapter05/008.svg"
   },
   {
     id: "009",
@@ -132,7 +140,8 @@ window.CHAPTER_DATA = [
     answerIndex: 2,
     ja: "僕たちは最後の曲まで、その二人が踊るのをずっと見ていた。",
     en: "We watched the two of them dance until the very last song.",
-    explanation: "知覚動詞（watch, see, hear など）は〈知覚動詞 + O + 原形不定詞〉。③は to dance ではなく原形 dance が正しい。"
+    explanation: "知覚動詞（watch, see, hear など）は〈知覚動詞 + O + 原形不定詞〉。③は to dance ではなく原形 dance が正しい。",
+    img: "assets/illust/chapter05/009.svg"
   },
   {
     id: "010",
@@ -144,7 +153,8 @@ window.CHAPTER_DATA = [
     answer: "The cheer song was too moving for me to hold back my tears",
     ja: "その応援歌はあまりに感動的で、僕は涙をこらえられなかった。",
     en: "The cheer song was too moving for me to hold back my tears.",
-    explanation: "〈too + 形容詞 + (for A) + to do〉で「（Aには）あまりに〜すぎて…できない」。意味上の主語は for me。（※「空はコバルト」に泣く南高生）"
+    explanation: "〈too + 形容詞 + (for A) + to do〉で「（Aには）あまりに〜すぎて…できない」。意味上の主語は for me。（※「空はコバルト」に泣く南高生）",
+    img: "assets/illust/chapter05/010.svg"
   },
   {
     id: "011",
@@ -156,7 +166,8 @@ window.CHAPTER_DATA = [
     answer: "He gathered his courage and asked her only to be politely turned down",
     ja: "彼は勇気を出して彼女を誘ったが、結局ていねいに断られただけだった。",
     en: "He gathered his courage and asked her, only to be politely turned down.",
-    explanation: "〈…, only to do〉は「…したが結局〜しただけだった」という残念な結果を表す。（※勇気の代償は丁重なお断り、南高男子）"
+    explanation: "〈…, only to do〉は「…したが結局〜しただけだった」という残念な結果を表す。（※勇気の代償は丁重なお断り、南高男子）",
+    img: "assets/illust/chapter05/011.svg"
   },
   {
     id: "012",
@@ -167,7 +178,8 @@ window.CHAPTER_DATA = [
     answer: ["for"],
     ja: "制服の決まりがないので、生徒がファッションで自分を表現するのは簡単だ。",
     en: "With no uniform rules, it is easy for students to express themselves through fashion.",
-    explanation: "〈It is + 形容詞 + for A + to do〉で「Aが…するのは〜だ」。easy は人柄の形容詞ではないので of ではなく for。（※制服のない南高）"
+    explanation: "〈It is + 形容詞 + for A + to do〉で「Aが…するのは〜だ」。easy は人柄の形容詞ではないので of ではなく for。（※制服のない南高）",
+    img: "assets/illust/chapter05/012.svg"
   },
   {
     id: "013",
@@ -178,7 +190,8 @@ window.CHAPTER_DATA = [
     answer: ["seemed", "appeared", "seems", "appears"],
     ja: "彼女はダンスを楽しんでいるように見え、それが3年生全体にまれな希望の光を与えた。",
     en: "She seemed to enjoy the dance, which gave the whole third year a rare glimmer of hope.",
-    explanation: "〈S + seem/appear + to do〉で「Sは〜するように思われる」。（※わずかな脈ありに沸き立つ南高男子）"
+    explanation: "〈S + seem/appear + to do〉で「Sは〜するように思われる」。（※わずかな脈ありに沸き立つ南高男子）",
+    img: "assets/illust/chapter05/013.svg"
   },
   {
     id: "014",
@@ -189,7 +202,8 @@ window.CHAPTER_DATA = [
     answer: ["honest", "frank"],
     ja: "正直に言うと、僕たちの多くはロマンスよりも軽食目当てで南校祭のダンスに行く。",
     en: "To be honest, most of us go to the festival dance more for the snacks than for romance.",
-    explanation: "To be honest（正直に言うと）は文全体を修飾する独立不定詞。To tell the truth, needless to say なども同類。（※恋より焼きそばの南高男子）"
+    explanation: "To be honest（正直に言うと）は文全体を修飾する独立不定詞。To tell the truth, needless to say なども同類。（※恋より焼きそばの南高男子）",
+    img: "assets/illust/chapter05/014.svg"
   },
   {
     id: "015",
@@ -203,7 +217,8 @@ window.CHAPTER_DATA = [
     ],
     ja: "音楽があまりにうるさくて、僕たちはお互いの声が聞こえなかった。",
     en: "The music was too loud for us to hear each other.",
-    explanation: "〈so + 形容詞 + that + S + can't do〉は〈too + 形容詞 + (for S) + to do〉に書き換えられる。主語 we は意味上の主語 for us に。"
+    explanation: "〈so + 形容詞 + that + S + can't do〉は〈too + 形容詞 + (for S) + to do〉に書き換えられる。主語 we は意味上の主語 for us に。",
+    img: "assets/illust/chapter05/015.svg"
   },
   {
     id: "016",
@@ -217,6 +232,7 @@ window.CHAPTER_DATA = [
     ],
     ja: "彼は彼女に完全に惚れ込んでしまったようだ。",
     en: "He seems to have fallen for her completely.",
-    explanation: "〈It seems that S + have + p.p.〉は〈S seems to have + p.p.〉に書き換える。主節より前の時制なので完了不定詞 to have fallen。（※一目惚れから抜け出せない南高男子）"
+    explanation: "〈It seems that S + have + p.p.〉は〈S seems to have + p.p.〉に書き換える。主節より前の時制なので完了不定詞 to have fallen。（※一目惚れから抜け出せない南高男子）",
+    img: "assets/illust/chapter05/016.svg"
   }
 ];

@@ -36,7 +36,8 @@ window.CHAPTER_DATA = [
     answerIndex: 1,
     ja: "真夜中に一人で全力で校歌を歌っているあいつが、完全に正気なはずがない。",
     en: "That guy singing the school song alone at full volume at midnight can't be entirely sane.",
-    explanation: "「〜のはずがない」という否定の強い推量は can't（cannot）be。肯定の「〜にちがいない」は must be。（※南高生の謎の情熱）"
+    explanation: "「〜のはずがない」という否定の強い推量は can't（cannot）be。肯定の「〜にちがいない」は must be。（※南高生の謎の情熱）",
+    img: "assets/illust/chapter03/001.svg"
   },
   {
     id: "002",
@@ -48,7 +49,8 @@ window.CHAPTER_DATA = [
     answerIndex: 1,
     ja: "部室の明かりがまだついているから、今も誰かが練習しているにちがいない。",
     en: "The lights are still on in the club room, so someone must be practicing even now.",
-    explanation: "現在の状況から「〜にちがいない」と強く推量するのは must be。反対の「〜のはずがない」は can't be。"
+    explanation: "現在の状況から「〜にちがいない」と強く推量するのは must be。反対の「〜のはずがない」は can't be。",
+    img: "assets/illust/chapter03/002.svg"
   },
   {
     id: "003",
@@ -60,7 +62,8 @@ window.CHAPTER_DATA = [
     answerIndex: 0,
     ja: "体育館全体が汗くさい。応援団はまた今朝も猛練習したにちがいない。",
     en: "The whole gym smells of sweat; the cheer squad must have trained hard again this morning.",
-    explanation: "現在の証拠から「（過去に）〜したにちがいない」と推量するのは must have + 過去分詞。"
+    explanation: "現在の証拠から「（過去に）〜したにちがいない」と推量するのは must have + 過去分詞。",
+    img: "assets/illust/chapter03/003.svg"
   },
   {
     id: "004",
@@ -72,7 +75,8 @@ window.CHAPTER_DATA = [
     answerIndex: 0,
     ja: "やっと彼女の番号を手に入れたのに、緊張して電話できなかった。すぐに電話すべきだったのに。",
     en: "I finally got her number, but I was too nervous to call. I should have just called her right away.",
-    explanation: "「〜すべきだったのに（実際はしなかった）」という後悔・非難は should have + 過去分詞。（※またも好機を逃す南高男子）"
+    explanation: "「〜すべきだったのに（実際はしなかった）」という後悔・非難は should have + 過去分詞。（※またも好機を逃す南高男子）",
+    img: "assets/illust/chapter03/004.svg"
   },
   {
     id: "005",
@@ -84,7 +88,8 @@ window.CHAPTER_DATA = [
     answerIndex: 0,
     ja: "以前はここに古い桜の木があったが、私たちが入学する前に切られてしまった。",
     en: "There used to be an old cherry tree here, but it was cut down before we entered the school.",
-    explanation: "過去の状態「以前は〜だった（今はちがう）」は used to。状態には would は使えない（would は過去の反復動作のみ）。"
+    explanation: "過去の状態「以前は〜だった（今はちがう）」は used to。状態には would は使えない（would は過去の反復動作のみ）。",
+    img: "assets/illust/chapter03/005.svg"
   },
   {
     id: "006",
@@ -96,7 +101,8 @@ window.CHAPTER_DATA = [
     answerIndex: 0,
     ja: "もう二度と応援練習をサボらないほうがいい。さもないと団長にソロで歌わされるぞ。",
     en: "You had better not skip cheer practice again, or the captain will make you sing solo.",
-    explanation: "「〜したほうがよい（さもないと…）」という警告を含む助言は had better。否定は had better not（notの位置に注意）。"
+    explanation: "「〜したほうがよい（さもないと…）」という警告を含む助言は had better。否定は had better not（notの位置に注意）。",
+    img: "assets/illust/chapter03/006.svg"
   },
   {
     id: "007",
@@ -108,7 +114,8 @@ window.CHAPTER_DATA = [
     answerIndex: 0,
     ja: "正直、練習で声をからすくらいなら、静かに一人で勉強するほうがましだ。",
     en: "Honestly, I would rather study alone in silence than shout myself hoarse at practice.",
-    explanation: "「BよりむしろAしたい」は would rather A than B。A・Bには動詞の原形が入る（study … than shout …）。"
+    explanation: "「BよりむしろAしたい」は would rather A than B。A・Bには動詞の原形が入る（study … than shout …）。",
+    img: "assets/illust/chapter03/007.svg"
   },
   {
     id: "008",
@@ -120,7 +127,8 @@ window.CHAPTER_DATA = [
     answerIndex: 1,
     ja: "この学校では、1年生全員が1週間以内に応援歌「空はコバルト」を全部暗記しなければならない。",
     en: "In this school, every first-year must learn the entire cheer song by heart within a week.",
-    explanation: "助動詞 must の後は動詞の原形。to は不要。②は to learn ではなく learn が正しい。（※入学早々、校歌より先に応援歌「空はコバルト」の暗記テスト）"
+    explanation: "助動詞 must の後は動詞の原形。to は不要。②は to learn ではなく learn が正しい。（※入学早々、校歌より先に応援歌「空はコバルト」の暗記テスト）",
+    img: "assets/illust/chapter03/008.svg"
   },
   {
     id: "009",
@@ -132,7 +140,8 @@ window.CHAPTER_DATA = [
     answerIndex: 0,
     ja: "全速力で坂道を自転車で下るときは、どんなに注意してもしすぎることはない。",
     en: "You cannot be too careful when you ride your bike downhill at full speed.",
-    explanation: "cannot ~ too …（いくら〜してもしすぎることはない）。「注意しすぎることはない」は cannot be too careful。①は can be ではなく cannot be が正しい。"
+    explanation: "cannot ~ too …（いくら〜してもしすぎることはない）。「注意しすぎることはない」は cannot be too careful。①は can be ではなく cannot be が正しい。",
+    img: "assets/illust/chapter03/009.svg"
   },
   {
     id: "010",
@@ -144,7 +153,8 @@ window.CHAPTER_DATA = [
     answer: "She cannot have remembered my name",
     ja: "彼女が僕の名前を覚えていたはずがない。",
     en: "She cannot have remembered my name.",
-    explanation: "「（過去に）〜したはずがない」という否定の強い推量は cannot have + 過去分詞。（※そもそも認識されていない南高男子）"
+    explanation: "「（過去に）〜したはずがない」という否定の強い推量は cannot have + 過去分詞。（※そもそも認識されていない南高男子）",
+    img: "assets/illust/chapter03/010.svg"
   },
   {
     id: "011",
@@ -156,7 +166,8 @@ window.CHAPTER_DATA = [
     answer: "I would rather watch in silence than confess and get rejected",
     ja: "僕は告白して振られるくらいなら、黙って見ているほうがましだ。",
     en: "I would rather watch in silence than confess and get rejected.",
-    explanation: "「BするよりむしろAしたい」は would rather A than B。A・Bは動詞の原形（watch … than confess …）。（※守りに入る南高男子）"
+    explanation: "「BするよりむしろAしたい」は would rather A than B。A・Bは動詞の原形（watch … than confess …）。（※守りに入る南高男子）",
+    img: "assets/illust/chapter03/011.svg"
   },
   {
     id: "012",
@@ -167,7 +178,8 @@ window.CHAPTER_DATA = [
     answer: ["needn't", "need not"],
     ja: "傘を持ってくる必要はなかったのに。雨は1時間前にやんだよ。",
     en: "You needn't have brought an umbrella; the rain stopped an hour ago.",
-    explanation: "「（実際にはしたが）〜する必要はなかったのに」は needn't have + 過去分詞。need not have も可。"
+    explanation: "「（実際にはしたが）〜する必要はなかったのに」は needn't have + 過去分詞。need not have も可。",
+    img: "assets/illust/chapter03/012.svg"
   },
   {
     id: "013",
@@ -178,7 +190,8 @@ window.CHAPTER_DATA = [
     answer: ["be"],
     ja: "1か月の猛練習の後には、フルマラソンのコースを走れるようになるだろう。",
     en: "After a month of hard training, you will be able to run the full marathon course.",
-    explanation: "can には未来形がないので、未来の「〜できるようになる」は will be able to で表す。空所には be が入る。"
+    explanation: "can には未来形がないので、未来の「〜できるようになる」は will be able to で表す。空所には be が入る。",
+    img: "assets/illust/chapter03/013.svg"
   },
   {
     id: "014",
@@ -189,7 +202,8 @@ window.CHAPTER_DATA = [
     answer: ["well"],
     ja: "彼女が息子を誇りに思うのももっともだ。彼はクラス首席で試験に合格したのだから。",
     en: "She may well be proud of her son; he passed the exam at the top of his class.",
-    explanation: "may well do は「〜するのももっともだ・たぶん〜だろう」。ここは「誇りに思うのももっともだ」。"
+    explanation: "may well do は「〜するのももっともだ・たぶん〜だろう」。ここは「誇りに思うのももっともだ」。",
+    img: "assets/illust/chapter03/014.svg"
   },
   {
     id: "015",
@@ -203,7 +217,8 @@ window.CHAPTER_DATA = [
     ],
     ja: "私たちは練習の後、体育館全体を掃除しなければならなかった。",
     en: "We had to clean the whole gym after practice.",
-    explanation: "must には過去形がないので、過去の義務は had to で表す。must → had to。"
+    explanation: "must には過去形がないので、過去の義務は had to で表す。must → had to。",
+    img: "assets/illust/chapter03/015.svg"
   },
   {
     id: "016",
@@ -217,6 +232,7 @@ window.CHAPTER_DATA = [
     ],
     ja: "もっと一生懸命勉強すべきだったのに。",
     en: "I should have studied harder.",
-    explanation: "「〜すべきだったのに（実際はしなかった）」という後悔は should have + 過去分詞で表す。"
+    explanation: "「〜すべきだったのに（実際はしなかった）」という後悔は should have + 過去分詞で表す。",
+    img: "assets/illust/chapter03/016.svg"
   }
 ];

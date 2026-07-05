@@ -16,11 +16,11 @@ window.CHAPTERS = [
   { id: "chapter08", no: 8, title: "関係詞", sub: "Relatives", total: 16, href: "chapter08.html" },
   { id: "chapter09", no: 9, title: "比較", sub: "Comparison", total: 16, href: "chapter09.html" },
   { id: "chapter10", no: 10, title: "接続詞", sub: "Conjunctions", total: 16, href: "chapter10.html" },
-  { id: "chapter11", no: 11, title: "疑問文・否定", sub: "Questions & Negation", total: 0, href: null },
-  { id: "chapter12", no: 12, title: "名詞・冠詞", sub: "Nouns & Articles", total: 0, href: null },
-  { id: "chapter13", no: 13, title: "代名詞", sub: "Pronouns", total: 0, href: null },
-  { id: "chapter14", no: 14, title: "形容詞・副詞", sub: "Adjectives & Adverbs", total: 0, href: null },
-  { id: "chapter15", no: 15, title: "前置詞", sub: "Prepositions", total: 0, href: null },
-  { id: "chapter16", no: 16, title: "動詞の語法", sub: "Verb Usage", total: 0, href: null },
-  { id: "chapter17", no: 17, title: "特殊構文", sub: "Special Structures", total: 0, href: null }
+  { id: "chapter11", no: 11, title: "疑問文・否定", sub: "Questions & Negation", total: 16, href: "chapter11.html" },
+  { id: "chapter12", no: 12, title: "名詞・冠詞", sub: "Nouns & Articles", total: 16, href: "chapter12.html" },
+  { id: "chapter13", no: 13, title: "代名詞", sub: "Pronouns", total: 16, href: "chapter13.html" },
+  { id: "chapter14", no: 14, title: "形容詞・副詞", sub: "Adjectives & Adverbs", total: 16, href: "chapter14.html" },
+  { id: "chapter15", no: 15, title: "前置詞", sub: "Prepositions", total: 16, href: "chapter15.html" },
+  { id: "chapter16", no: 16, title: "動詞の語法", sub: "Verb Usage", total: 16, href: "chapter16.html" },
+  { id: "chapter17", no: 17, title: "特殊構文", sub: "Special Structures", total: 16, href: "chapter17.html" }
 ];
