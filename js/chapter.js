@@ -50,11 +50,26 @@
     top.appendChild(meta2);
     el.appendChild(top);
 
-    // 問題文
+    // 問題文（＋例文イラスト：p.img があれば右側に小さく表示）
     var q = document.createElement("div");
     q.className = "q-text";
     q.innerHTML = escapeHtml(p.question).replace(/（　）/g, '<span class="blank">（　）</span>');
-    el.appendChild(q);
+    if (p.img) {
+      var qw = document.createElement("div");
+      qw.className = "q-wrap";
+      var im = document.createElement("img");
+      im.className = "q-illust";
+      im.src = p.img;
+      im.alt = "";
+      im.setAttribute("aria-hidden", "true");
+      im.loading = "lazy";
+      im.addEventListener("error", function () { im.remove(); });
+      qw.appendChild(q);
+      qw.appendChild(im);
+      el.appendChild(qw);
+    } else {
+      el.appendChild(q);
+    }
 
     // 解答ボックス（共通）
     var ans = document.createElement("div");

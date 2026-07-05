@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="ワルツを踊る二人">
+  <rect width="96" height="96" rx="18" fill="#e9f1fc"/>
+  <circle cx="38" cy="30" r="8" fill="#2b3a55"/>
+  <path d="M30 40h16l4 34h-24z" fill="#0047ab"/>
+  <circle cx="62" cy="32" r="8" fill="#8a5a44"/>
+  <path d="M54 42h16l8 32h-32z" fill="#ef6f6f"/>
+  <path d="M46 48c4-4 8-4 12 0" stroke="#2b3a55" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M78 16c2.5 1.5 2.5 5 0 6.5s-2.5 5 0 6.5" stroke="#3b82f6" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <circle cx="16" cy="24" r="2.5" fill="#f6c445"/><circle cx="84" cy="52" r="2.5" fill="#f6c445"/>
+</svg>

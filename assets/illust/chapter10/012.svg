@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="ダンスの基本ステップ">
+  <rect width="96" height="96" rx="18" fill="#e9f1fc"/>
+  <path d="M24 70q14-24 48-38" stroke="#a8c8f0" stroke-width="2.5" stroke-dasharray="2 6" fill="none" stroke-linecap="round"/>
+  <g fill="#0047ab">
+    <ellipse cx="26" cy="74" rx="6" ry="9" transform="rotate(-18 26 74)"/>
+    <ellipse cx="44" cy="60" rx="6" ry="9" transform="rotate(14 44 60)"/>
+  </g>
+  <g fill="#ef6f6f">
+    <ellipse cx="56" cy="42" rx="6" ry="9" transform="rotate(-14 56 42)"/>
+    <ellipse cx="74" cy="28" rx="6" ry="9" transform="rotate(16 74 28)"/>
+  </g>
+  <path d="M16 28c2.5 1.5 2.5 5 0 6.5s-2.5 5 0 6.5" stroke="#3b82f6" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+</svg>
