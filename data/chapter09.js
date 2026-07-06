@@ -122,12 +122,12 @@ window.CHAPTER_DATA = [
     tags: ["発展", "超頻出"],
     type: "error",
     point: "ラテン比較 superior to（than ではない）",
-    question: "①Everyone agrees ②that her impressions ③are far superior ④than any pro comedian's.",
-    choices: ["①Everyone agrees", "②that her impressions", "③are far superior", "④than any pro comedian's"],
+    question: "①Everyone agrees ②that Inoue's left hook ③is far superior ④than anyone else's in the division.",
+    choices: ["①Everyone agrees", "②that Inoue's left hook", "③is far superior", "④than anyone else's in the division"],
     answerIndex: 3,
-    ja: "彼女のモノマネはどのプロ芸人よりもはるかに上だと、誰もが認めている。",
-    en: "Everyone agrees that her impressions are far superior to any pro comedian's.",
-    explanation: "superior / inferior / senior / junior などラテン語由来の比較級は than ではなく to をとる。④を to に直す。（※プロ級のモノマネ名人）",
+    ja: "井上尚弥の左フックは同じ階級の誰のものよりはるかに上だと、誰もが認めている。",
+    en: "Everyone agrees that Inoue's left hook is far superior to anyone else's in the division.",
+    explanation: "superior / inferior / senior / junior などのラテン比較は than ではなく to を使う。④の than が誤り。強調には far / much を添える。（※モンスターの左は世界基準）",
     img: "assets/illust/chapter09/008.svg"
   },
   {

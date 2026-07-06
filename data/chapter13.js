@@ -31,12 +31,12 @@ window.CHAPTER_DATA = [
     tags: ["超頻出"],
     type: "choice",
     point: "2つのうちの残り = the other",
-    question: "He has two acts: one is beatboxing, and （　） is an impression of our principal.",
+    question: "The famous comedian has two faces: one is the loud TV star, and （　） is a quiet lover of novels.",
     choices: ["another", "other", "the other", "others"],
     answerIndex: 2,
-    ja: "彼には持ちネタが2つある。1つはビートボックスで、もう1つは校長先生のモノマネだ。",
-    en: "He has two acts: one is beatboxing, and the other is an impression of our principal.",
-    explanation: "2つのうち「1つは one、残りの1つは the other」。残りが特定できるので the が付く。3つ以上で「別のもう1つ」なら another。（※どちらのネタも壮行式の定番）",
+    ja: "その有名なお笑い芸人には2つの顔がある。1つはテレビの賑やかなスター、もう1つは静かな小説好きだ。",
+    en: "The famous comedian has two faces: one is the loud TV star, and the other is a quiet lover of novels.",
+    explanation: "2つのうち「1つは one、残りの1つは the other」。残りが1つに特定できるので the が付く。3つ以上で「別のもう1つ」なら another。（※芸人の本棚は意外と文学だらけ、というのはよく聞く話）",
     img: "assets/illust/chapter13/002.svg"
   },
   {
@@ -96,12 +96,12 @@ window.CHAPTER_DATA = [
     tags: ["発展"],
     type: "choice",
     point: "所有代名詞 hers = her + 名詞",
-    question: "My act got a few laughs, but （　） brought the whole gym down.",
+    question: "My paper airplane flew ten meters, but （　） sailed across the entire gym.",
     choices: ["her", "hers", "she", "herself"],
     answerIndex: 1,
-    ja: "僕の一芸はそこそこ笑いを取ったが、彼女のは体育館全体を爆笑の渦に巻き込んだ。",
-    en: "My act got a few laughs, but hers brought the whole gym down.",
-    explanation: "hers は her act を1語で表す所有代名詞（mine / yours / his / hers / ours / theirs）。所有格 her の後ろには必ず名詞が必要なので、単独では使えない。",
+    ja: "僕の紙飛行機は10メートル飛んだが、彼女のは体育館を端から端まで滑空した。",
+    en: "My paper airplane flew ten meters, but hers sailed across the entire gym.",
+    explanation: "hers は her paper airplane を1語で表す所有代名詞。所有格 her は単独で使えない。sail は「滑るように飛ぶ」。（※物理の授業が一瞬で航空ショーになった日）",
     img: "assets/illust/chapter13/007.svg"
   },
   {

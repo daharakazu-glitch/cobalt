@@ -3,44 +3,30 @@
     <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#1a2f5e"/><stop offset="1" stop-color="#0d1b3d"/>
     </linearGradient>
-    <linearGradient id="spot1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fff8dc" stop-opacity=".85"/><stop offset="1" stop-color="#fff8dc" stop-opacity=".06"/>
+    <linearGradient id="pitch1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5e9153"/><stop offset="1" stop-color="#487341"/>
     </linearGradient>
-    <linearGradient id="floor1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#8a5a36"/><stop offset="1" stop-color="#6b4226"/>
-    </linearGradient>
-    <radialGradient id="glow1" cx=".5" cy=".35" r=".65">
-      <stop offset="0" stop-color="#ffe9a8"/><stop offset="1" stop-color="#ffe9a8" stop-opacity="0"/>
+    <radialGradient id="glow1" cx=".5" cy=".4" r=".6">
+      <stop offset="0" stop-color="#fff8dc" stop-opacity=".5"/><stop offset="1" stop-color="#fff8dc" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="96" height="96" rx="18" fill="url(#sky1)"/>
-  <path d="M40 0h16l14 66h-44z" fill="url(#spot1)"/>
-  <ellipse cx="48" cy="68" rx="26" ry="7" fill="url(#glow1)"/>
-  <path d="M8 66h80v14a18 18 0 0 1-18 16h-44a18 18 0 0 1-18-16z" fill="url(#floor1)"/>
-  <path d="M8 66h80" stroke="#a8734a" stroke-width="1.6"/>
+  <path d="M10 20h10l3 6h-10zM76 20h10l-3 6h-10z" fill="#3a4666"/>
+  <circle cx="15" cy="19" r="3" fill="#ffe9a8"/><circle cx="81" cy="19" r="3" fill="#ffe9a8"/>
+  <ellipse cx="48" cy="66" rx="34" ry="10" fill="url(#glow1)"/>
+  <path d="M6 64h84v14a16 16 0 0 1-16 16h-52a16 16 0 0 1-16-16z" fill="url(#pitch1)"/>
+  <path d="M12 70h72M22 78h52" stroke="#548549" stroke-width="1.6"/>
   <g>
-    <rect x="46.6" y="38" width="2.8" height="26" rx="1.4" fill="#cfd6e4"/>
-    <path d="M40 66c0-2.5 3.5-4 8-4s8 1.5 8 4z" fill="#9aa4b8"/>
-    <circle cx="48" cy="32" r="8.5" fill="#39445c"/>
-    <circle cx="48" cy="32" r="8.5" fill="none" stroke="#222b3f" stroke-width="1"/>
-    <path d="M41 29.5h14M40 32.5h16M41 35.5h14" stroke="#5a6880" stroke-width="1.1"/>
-    <path d="M44 27a5.5 5.5 0 0 1 5-2" stroke="#8b97ad" stroke-width="1.6" fill="none" stroke-linecap="round"/>
-    <rect x="45.4" y="40.5" width="5.2" height="3.4" rx="1.2" fill="#39445c"/>
+    <path d="M56 30h24v26" fill="none" stroke="#e8edf5" stroke-width="2.6"/>
+    <path d="M58 34h20M58 40h20M58 46h20M62 30v24M68 30v25M74 30v26" stroke="#9aa9c4" stroke-width=".9" opacity=".85"/>
   </g>
+  <circle cx="42" cy="60" r="7.5" fill="#fff" stroke="#c3cddf"/>
+  <path d="M42 56.6l3.2 2.3-1.2 3.8h-4l-1.2-3.8z" fill="#2b3a55"/>
+  <path d="M42 56.6v-4.4M45.2 58.9l4-1.4M38.8 58.9l-4-1.4" stroke="#2b3a55" stroke-width="1.2"/>
+  <path d="M26 52l-5-3M28 44l-4-4M34 39l-2.6-4.6" stroke="#9db8e8" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M14 34l1.8 3.7 4 .6-2.9 2.8.7 4-3.6-1.9-3.6 1.9.7-4-2.9-2.8 4-.6z" fill="#ffd75e"/>
   <g fill="#101c38">
-    <path d="M10 82c2-6 6-6 7 0l1 6h-10z"/>
-    <path d="M22 84c2-7 6-7 7 0l1 5h-10z"/>
-    <path d="M68 84c2-7 6-7 7 0l1 5h-10z"/>
-    <path d="M80 82c2-6 6-6 7 0l1 6h-10z"/>
-  </g>
-  <g stroke-linecap="round">
-    <path d="M20 18l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4-3.9-3.8 5.4-.8z" fill="#ffd75e"/>
-    <path d="M74 12l1.8 3.7 4 .6-2.9 2.8.7 4-3.6-1.9-3.6 1.9.7-4-2.9-2.8 4-.6z" fill="#ffd75e"/>
-    <rect x="30" y="10" width="3" height="6" rx="1.5" fill="#ff8f6b" transform="rotate(25 31 13)"/>
-    <rect x="62" y="22" width="3" height="6" rx="1.5" fill="#6bd0ff" transform="rotate(-30 63 25)"/>
-    <rect x="14" y="42" width="3" height="6" rx="1.5" fill="#8affc1" transform="rotate(40 15 45)"/>
-    <rect x="82" y="46" width="3" height="6" rx="1.5" fill="#ff8f6b" transform="rotate(-15 83 49)"/>
-    <circle cx="66" cy="40" r="1.6" fill="#ffd75e"/>
-    <circle cx="28" cy="34" r="1.6" fill="#6bd0ff"/>
+    <path d="M8 86c2-6 6-6 7 0l1 4h-10z"/>
+    <path d="M80 86c2-6 6-6 7 0l1 4h-10z"/>
   </g>
 </svg>

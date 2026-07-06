@@ -57,12 +57,12 @@ window.CHAPTER_DATA = [
     tags: ["超頻出"],
     type: "choice",
     point: "部分否定 not always",
-    question: "A funny impression does （　） get a cheer — sometimes it gets boos instead.",
+    question: "A fast start does （　） lead to a strong finish — ask any marathon runner.",
     choices: ["always", "not always", "never", "not never"],
     answerIndex: 1,
-    ja: "面白いモノマネがいつも喝采をもらえるとは限らない——ときにはブーイングを浴びることもある。",
-    en: "A funny impression does not always get a cheer — sometimes it gets boos instead.",
-    explanation: "not + always / all / every は「いつも（すべて）〜とは限らない」という部分否定。never は全否定なので後半の「ときには〜」と矛盾する。（※一芸披露は水物。ウケるも滑るも紙一重）",
+    ja: "速いスタートがいつも力強いフィニッシュにつながるとは限らない——マラソン選手なら誰でも知っている。",
+    en: "A fast start does not always lead to a strong finish — ask any marathon runner.",
+    explanation: "not + always / all / every は「いつも（すべて）〜とは限らない」という部分否定。never だと全否定になり意味が強すぎる。（※前半の貯金は後半の借金、とはよく言ったもの）",
     img: "assets/illust/chapter11/004.svg"
   },
   {

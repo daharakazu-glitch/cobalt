@@ -83,12 +83,12 @@ window.CHAPTER_DATA = [
     tags: ["超頻出"],
     type: "choice",
     point: "二重所有格 a friend of mine",
-    question: "A friend of （　） is famous in three schools for his juggling.",
+    question: "A friend of （　） once shook hands with Ohtani at the airport — he still talks about it every week.",
     choices: ["me", "my", "mine", "myself"],
     answerIndex: 2,
-    ja: "僕の友達の一人は、ジャグリングで3つの学校に名をとどろかせている。",
-    en: "A friend of mine is famous in three schools for his juggling.",
-    explanation: "a / this / that と所有格は名詞の前に並べられないので、a friend of mine という二重所有格の形を使う。a my friend は不可。",
+    ja: "僕の友達の一人は、空港で偶然大谷翔平と握手したことがある——今でも毎週その話をしている。",
+    en: "A friend of mine once shook hands with Ohtani at the airport — he still talks about it every week.",
+    explanation: "a と所有格は名詞の前に並べられないので、a friend of mine という二重所有格を使う。a my friend は不可。（※その手はしばらく洗わなかったらしい）",
     img: "assets/illust/chapter12/006.svg"
   },
   {
@@ -173,11 +173,11 @@ window.CHAPTER_DATA = [
     tags: ["超頻出"],
     type: "fill",
     point: "catch + 人 + by the + 身体部位",
-    question: "He caught me （　） the arm and dragged me to the karaoke stage.",
+    question: "The station guard caught the running boy （　） the arm just before the doors slid shut.",
     answer: ["by"],
-    ja: "彼は僕の腕をつかむと、カラオケのステージへ引っ張っていった。",
-    en: "He caught me by the arm and dragged me to the karaoke stage.",
-    explanation: "catch / take / pull + 人 + by the + 身体部位 の形では、所有格ではなく the を使う（caught my arm より catch me by the arm が定型）。（※指名されたら逃げられない一芸ルール）",
+    ja: "駅員は、ドアが閉まる直前に駆け込んできた少年の腕をつかんだ。",
+    en: "The station guard caught the running boy by the arm just before the doors slid shut.",
+    explanation: "catch / take / pull + 人 + by the + 身体部位。所有格ではなく the を使うのがポイント（catch him by the arm）。（※駆け込み乗車は、やめよう）",
     img: "assets/illust/chapter12/013.svg"
   },
   {

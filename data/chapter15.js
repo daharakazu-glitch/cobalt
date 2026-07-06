@@ -70,12 +70,12 @@ window.CHAPTER_DATA = [
     tags: ["超頻出"],
     type: "choice",
     point: "be known as「〜として知られる」",
-    question: "He is known （　） the best mimic in school.",
+    question: "The tiny island is known （　） the Cat Island because cats there outnumber people.",
     choices: ["to", "for", "as", "by"],
     answerIndex: 2,
-    ja: "彼は校内一のモノマネ名人として知られている。",
-    en: "He is known as the best mimic in school.",
-    explanation: "be known as ~「〜として」、be known to ~「〜に」、be known for ~「〜（の理由）で」。「名人として」という肩書なので as。3つの区別が超頻出。",
+    ja: "その小さな島は、人より猫のほうが多いことから『猫の島』として知られている。",
+    en: "The tiny island is known as the Cat Island because cats there outnumber people.",
+    explanation: "be known as ~「〜として（呼び名）」、be known to ~「〜に」、be known for ~「〜という理由で」。空所の後ろは呼び名なので as。outnumber は「数で上回る」。（※日本に実在する。猫好きの聖地）",
     img: "assets/illust/chapter15/005.svg"
   },
   {
@@ -161,11 +161,11 @@ window.CHAPTER_DATA = [
     tags: ["基本"],
     type: "fill",
     point: "be proud of ~",
-    question: "He is secretly proud （　） his impression of our principal.",
+    question: "The little town is quietly proud （　） its four-hundred-year-old cherry tree.",
     answer: ["of"],
-    ja: "彼は校長先生のモノマネをひそかに誇りにしている。",
-    en: "He is secretly proud of his impression of our principal.",
-    explanation: "be proud of ~「〜を誇りに思う」。形容詞と前置詞のセット（be afraid of / be famous for / be interested in など）は熟語としてまとめて覚える。",
+    ja: "その小さな町は、樹齢400年の桜の木をひそかに誇りにしている。",
+    en: "The little town is quietly proud of its four-hundred-year-old cherry tree.",
+    explanation: "be proud of ~「〜を誇りに思う」。形容詞 + 前置詞のセット（be afraid of / be famous for / be interested in）は熟語として覚える。（※満開の一週間だけ、町の人口が3倍になる）",
     img: "assets/illust/chapter15/012.svg"
   },
   {

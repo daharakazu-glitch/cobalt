@@ -96,12 +96,12 @@ window.CHAPTER_DATA = [
     tags: ["超頻出"],
     type: "choice",
     point: "what we call「いわゆる」",
-    question: "His one-man comedy show is （　） we call a legend at our school.",
+    question: "Chaplin's silent films are （　） we call timeless classics.",
     choices: ["what", "that", "which", "as"],
     answerIndex: 0,
-    ja: "彼のワンマンお笑いライブは、我が校でいわゆる伝説というやつだ。",
-    en: "His one-man comedy show is what we call a legend at our school.",
-    explanation: "what we call / what is called「いわゆる」。関係代名詞 what を使った定型表現で、後ろに名詞が続く。so-called と同じ意味。",
+    ja: "チャップリンの無声映画は、いわゆる不朽の名作というやつだ。",
+    en: "Chaplin's silent films are what we call timeless classics.",
+    explanation: "what we call / what is called「いわゆる」。関係代名詞 what の定型表現で、後ろに名詞が続く。so-called と同じ意味。（※セリフがないのに100年笑わせ続けている）",
     img: "assets/illust/chapter17/007.svg"
   },
   {
@@ -185,11 +185,11 @@ window.CHAPTER_DATA = [
     tags: ["基本"],
     type: "fill",
     point: "強調の do",
-    question: "I really （　） believe your act will get cheers this time.",
+    question: "I really （　） believe your team will win the final this time.",
     answer: ["do"],
-    ja: "今度こそ君の一芸は喝采をもらえるって、本当に信じてるよ。",
-    en: "I really do believe your act will get cheers this time.",
-    explanation: "動詞の前の do / does / did は「本当に・確かに」という強調。I do believe = 心から信じている。（※前回ブーイングだった友への、最高のエール）",
+    ja: "今度こそ君のチームが決勝で勝つって、本当に信じてるよ。",
+    en: "I really do believe your team will win the final this time.",
+    explanation: "動詞の前の do / does / did は「本当に・確かに」という強調。I do believe = 心から信じている。（※3年連続準優勝からの、今年である）",
     img: "assets/illust/chapter17/014.svg"
   },
   {

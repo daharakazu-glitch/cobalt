@@ -32,12 +32,12 @@ window.CHAPTER_DATA = [
     tags: ["基本", "超頻出"],
     type: "choice",
     point: "命令文 + and「そうすれば」",
-    question: "Do one more impression, （　） the whole gym will burst into cheers.",
+    question: "Score one more goal, （　） we will be through to the national tournament.",
     choices: ["or", "and", "but", "so"],
     answerIndex: 1,
-    ja: "もう一つモノマネをやってみろ、そうすれば体育館全体が大喝采に包まれるぞ。",
-    en: "Do one more impression, and the whole gym will burst into cheers.",
-    explanation: "命令文 + and は「〜しなさい、そうすれば…」、命令文 + or は「〜しなさい、さもないと…」。ここは喝采という良い結果が続くので and。burst into cheers は「歓声がどっと湧く」。（※一芸披露で当たると喝采、外すとブーイングが南高の掟）",
+    ja: "あと1点決めろ、そうすれば全国大会進出だ。",
+    en: "Score one more goal, and we will be through to the national tournament.",
+    explanation: "命令文 + and は「〜しなさい、そうすれば…」、命令文 + or は「〜しなさい、さもないと…」。ここは良い結果が続くので and。be through to ~ は「〜に進出する」。",
     img: "assets/illust/chapter10/001.svg"
   },
   {
