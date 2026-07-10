@@ -18,6 +18,10 @@
 > ⚠️ 用語の対応: ローカルフォルダ = `grammar-app` ／ GitHubリポジトリ = `cobalt`。
 > 「grammar-app という名前のGitHubリポジトリ」は存在しない。GitHub上は `cobalt`。
 
+> 🚪 このリポジトリを初めて開いたら、まず `README.md`（全体地図）→ `CLAUDE.md`
+> （作業ルール）→ この `HANDOVER.md`（詳細の正本）の順で読めば継続できる。
+> 特定のAIモデル（Fable/Opus/Sonnet 等）に依存した情報はない。
+
 > 💡 クラウドセッション（Claude Code on the Web 等）で作業する場合の注意:
 > - ユーザーのMacのファイルには触れない。リポジトリのこの `docs/HANDOVER.md` が正。
 > - `gh` CLI は使えないことがある → GitHub MCP ツールで代替（Actions監視・workflow_dispatch・PR作成すべて可能）。
@@ -45,6 +49,8 @@
 
 ```
 grammar-app/ (GitHub: cobalt)
+├── README.md             … リポジトリの入口・全体地図
+├── CLAUDE.md             … AIセッションの作業ガイド（Claude Codeが自動ロード）
 ├── index.html            … ダッシュボード（章グリッド＋進捗）
 ├── chapterNN.html        … 各章ページ（NN = 01〜。chapter01.htmlをコピーして作る）
 ├── css/style.css         … デザインシステム（:root にトークン。末尾に発音/PDF/イラスト用CSS）
@@ -58,7 +64,9 @@ grammar-app/ (GitHub: cobalt)
 ├── assets/
 │   ├── hero.png
 │   └── illust/chapterNN/NNN.svg … ★例文イラスト（問題idと同名の手描きSVG、96×96）
-├── docs/HANDOVER.md      … この引き継ぎ書
+├── docs/
+│   ├── HANDOVER.md       … この引き継ぎ書（正本）
+│   └── README.md         … docs 索引
 └── .github/workflows/pages.yml … GitHub Actionsデプロイ
 ```
 
