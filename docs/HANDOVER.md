@@ -18,6 +18,9 @@
 > ⚠️ 用語の対応: ローカルフォルダ = `grammar-app` ／ GitHubリポジトリ = `cobalt`。
 > 「grammar-app という名前のGitHubリポジトリ」は存在しない。GitHub上は `cobalt`。
 
+> 🗂 Mac側デスクトップ（`Desktop/AIチーム`）の整理は [`DESKTOP_GUIDE.md`](DESKTOP_GUIDE.md) 参照。
+> **`AIチーム` と `grammar-app` のパスは変えない**（Claude の自動メモリがパスに紐づくため）。
+
 > 🚪 このリポジトリを初めて開いたら、まず `README.md`（全体地図）→ `CLAUDE.md`
 > （作業ルール）→ この `HANDOVER.md`（詳細の正本）の順で読めば継続できる。
 > 特定のAIモデル（Fable/Opus/Sonnet 等）に依存した情報はない。
